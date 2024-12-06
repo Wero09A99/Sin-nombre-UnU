@@ -17,9 +17,9 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("PA_Project-Arrhythmia_Clone")
 
 # Colores
-BG_COLOR = (85, 0, 108 )
+BG_COLOR = (85, 0, 108)
 RED = (255, 0, 0)
-PLAYER_COLOR = (0, 0, 255)
+PLAYER_COLOR = (255, 255, 0)
 
 # Jugador
 player_size = 30
@@ -35,6 +35,29 @@ obstacles_itertion = 10
 # Cargar los tiempos desde el archivo JSON
 with open("enemy_spawn_times.json", "r") as file:
     enemy_spawn_times = json.load(file)
+
+# Clase para las partículas
+class Particle:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+        self.size = random.randint(5, 10)  # Tamaño aleatorio de la partícula
+        self.color = (0, 0, 255, 255)  # Azul con opacidad completa
+        self.life = 30  # Tiempo de vida de la partícula en frames
+        self.vx = random.uniform(-1, 1)  # Velocidad en x
+        self.vy = random.uniform(-1, 1)  # Velocidad en y
+
+    def update(self):
+        self.x += self.vx
+        self.y += self.vy
+        self.life -= 1
+        self.size -= 0.2  # Reducir tamaño con el tiempo
+
+    def is_alive(self):
+        return self.life > 0 and self.size > 0
+
+# Lista para las partículas
+particles = []
 
 # Loop principal del juego
 running = True
@@ -75,6 +98,17 @@ while running:
         player_pos[1] -= player_speed
     if keys[pygame.K_DOWN] and player_pos[1] < HEIGHT - player_size:
         player_pos[1] += player_speed
+
+    # Crear partículas detrás del jugador
+    particles.append(Particle(player_pos[0] + player_size // 2, player_pos[1] + player_size // 2))
+
+    # Actualizar y dibujar partículas
+    for particle in particles[:]:
+        particle.update()
+        if particle.is_alive():
+            pygame.draw.circle(screen, PLAYER_COLOR, (int(particle.x), int(particle.y)), int(particle.size))
+        else:
+            particles.remove(particle)
 
     # Dibujar jugador
     pygame.draw.rect(screen, PLAYER_COLOR, (player_pos[0], player_pos[1], player_size, player_size))
