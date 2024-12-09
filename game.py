@@ -11,15 +11,20 @@ pygame.mixer.init()
 pygame.mixer.music.load("resources/[PA] Geoxor - Virtual Arcadia 2020.ogg")  # Reemplaza con la ruta a tu archivo de música
 pygame.mixer.music.play(loops=-1)  # Reproduce la música en bucle
 
+#TITULO
+TITLE_LEVEL = "Level: First test"
+
 # Dimensiones de la ventana
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("PA_Project-Arrhythmia_Clone")
 
-# Colores
-BG_COLOR = (85, 0, 108)
-RED = (255, 0, 0)
-PLAYER_COLOR = (255, 255, 0)
+# Paleta de colores
+BG_COLOR = (15, 15, 35)          # Fondo oscuro con un toque morado
+OBSTACLE_COLOR = (138, 43, 226)  # Morado fuerte
+PLAYER_COLOR = (135, 206, 250)   # Azul claro
+PARTICLE_COLOR = (255, 255, 255) # Blanco para partículas
+TEXT_COLOR = (200, 200, 200)     # Gris claro
 
 # Jugador
 player_size = 30
@@ -32,6 +37,10 @@ obstacles = []
 obstacle_speed = 5
 obstacles_itertion = 10
 
+
+# Fuente para texto
+font = pygame.font.SysFont(None, 24)
+
 # Cargar los tiempos desde el archivo JSON
 with open("enemy_spawn_times.json", "r") as file:
     enemy_spawn_times = json.load(file)
@@ -41,17 +50,17 @@ class Particle:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-        self.size = random.randint(5, 10)  # Tamaño aleatorio de la partícula
-        self.color = (0, 0, 255, 255)  # Azul con opacidad completa
-        self.life = 30  # Tiempo de vida de la partícula en frames
-        self.vx = random.uniform(-1, 1)  # Velocidad en x
-        self.vy = random.uniform(-1, 1)  # Velocidad en y
+        self.size = random.randint(2, 10)
+        self.color = PARTICLE_COLOR
+        self.life = 60
+        self.vx = random.uniform(-1, 1)
+        self.vy = random.uniform(-1, 1)
 
     def update(self):
         self.x += self.vx
         self.y += self.vy
         self.life -= 1
-        self.size -= 0.2  # Reducir tamaño con el tiempo
+        self.size -= 0.2
 
     def is_alive(self):
         return self.life > 0 and self.size > 0
@@ -106,7 +115,7 @@ while running:
     for particle in particles[:]:
         particle.update()
         if particle.is_alive():
-            pygame.draw.circle(screen, PLAYER_COLOR, (int(particle.x), int(particle.y)), int(particle.size))
+            pygame.draw.circle(screen, particle.color, (int(particle.x), int(particle.y)), int(particle.size))
         else:
             particles.remove(particle)
 
@@ -117,7 +126,7 @@ while running:
     obstacles_to_remove = []
     for obstacle in obstacles:
         obstacle[1] += obstacle_speed
-        pygame.draw.rect(screen, RED, (obstacle[0], obstacle[1], obstacle_size, obstacle_size))
+        pygame.draw.rect(screen, OBSTACLE_COLOR, (obstacle[0], obstacle[1], obstacle_size, obstacle_size))
 
         # Detectar colisiones
         if player_pos[0] < obstacle[0] + obstacle_size and player_pos[0] + player_size > obstacle[0] and \
@@ -132,6 +141,10 @@ while running:
     # Eliminar los obstáculos que están fuera de la pantalla
     for obstacle in obstacles_to_remove:
         obstacles.remove(obstacle)
+
+    # Dibujar texto
+    text = font.render(TITLE_LEVEL, True, TEXT_COLOR)
+    screen.blit(text, (10, 10))
 
     pygame.display.flip()
     clock.tick(60)
