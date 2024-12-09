@@ -1,0 +1,30 @@
+{
+    "shapes": {
+      "rectangle": {
+        "type": "rectangle",
+        "width": 40,
+        "height": 40
+      },
+      "circle": {
+        "type": "circle",
+        "radius": 20
+      },
+      "oval": {
+        "type": "oval",
+        "width": 60,
+        "height": 30
+      },
+      "custom_shape": {
+        "type": "polygon",
+        "vertices": [
+          [10, 10],
+          [20, 30],
+          [40, 30],
+          [50, 10],
+          [40, -10],
+          [20, -10]
+        ]
+      }
+    }
+  }
+  

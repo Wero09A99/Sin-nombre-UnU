@@ -1,0 +1,29 @@
+{
+  "song": "resources/[PA] Geoxor - Virtual Arcadia 2020.ogg",
+  "obstacles": [
+      {
+          "shape": "rectangle",
+          "position": [100, 0],
+          "color": [255, 0, 0],
+          "spawn_time": 1000
+      },
+      {
+          "shape": "circle",
+          "position": [300, 50],
+          "color": [0, 255, 0],
+          "spawn_time": 3000
+      },
+      {
+          "shape": "oval",
+          "position": [500, 0],
+          "color": [0, 0, 255],
+          "spawn_time": 5000
+      },
+      {
+          "shape": "custom_shape",
+          "position": [200, 200],
+          "color": [255, 255, 0],
+          "spawn_time": 7000
+      }
+  ]
+}

@@ -1,0 +1,3489 @@
+{
+    "song": "resources/[PA] Geoxor - Virtual Arcadia 2020.ogg",
+    "obstacles": [
+        {
+            "shape": "circle",
+            "position": [
+                391,
+                337
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 5019
+        },
+        {
+            "shape": "circle",
+            "position": [
+                498,
+                128
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 5856
+        },
+        {
+            "shape": "circle",
+            "position": [
+                552,
+                192
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 7350
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                11,
+                92
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 8222
+        },
+        {
+            "shape": "oval",
+            "position": [
+                211,
+                339
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 9788
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                286,
+                323
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 10660
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                589,
+                192
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 12171
+        },
+        {
+            "shape": "circle",
+            "position": [
+                159,
+                210
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 13029
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                332,
+                374
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 14549
+        },
+        {
+            "shape": "circle",
+            "position": [
+                507,
+                105
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 15456
+        },
+        {
+            "shape": "circle",
+            "position": [
+                108,
+                265
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 16951
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                237,
+                175
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 17861
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                115,
+                218
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 19379
+        },
+        {
+            "shape": "oval",
+            "position": [
+                69,
+                23
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 20279
+        },
+        {
+            "shape": "oval",
+            "position": [
+                361,
+                34
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 21836
+        },
+        {
+            "shape": "circle",
+            "position": [
+                55,
+                213
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 22133
+        },
+        {
+            "shape": "circle",
+            "position": [
+                487,
+                167
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 22410
+        },
+        {
+            "shape": "oval",
+            "position": [
+                510,
+                359
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 22699
+        },
+        {
+            "shape": "circle",
+            "position": [
+                108,
+                202
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 23024
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                115,
+                246
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 23340
+        },
+        {
+            "shape": "oval",
+            "position": [
+                581,
+                129
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 23628
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                328,
+                350
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 23931
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                537,
+                187
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 24221
+        },
+        {
+            "shape": "circle",
+            "position": [
+                330,
+                7
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 24516
+        },
+        {
+            "shape": "oval",
+            "position": [
+                242,
+                181
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 24824
+        },
+        {
+            "shape": "circle",
+            "position": [
+                479,
+                214
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 25147
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                369,
+                301
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 25435
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                409,
+                114
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 25724
+        },
+        {
+            "shape": "oval",
+            "position": [
+                331,
+                92
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 26037
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                412,
+                234
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 26355
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                487,
+                179
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 26649
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                312,
+                7
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 26949
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                202,
+                175
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 27235
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                88,
+                265
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 27523
+        },
+        {
+            "shape": "oval",
+            "position": [
+                585,
+                278
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 27837
+        },
+        {
+            "shape": "oval",
+            "position": [
+                86,
+                74
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 28135
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                552,
+                291
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 28433
+        },
+        {
+            "shape": "oval",
+            "position": [
+                181,
+                16
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 28720
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                306,
+                139
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 29351
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                502,
+                103
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 29655
+        },
+        {
+            "shape": "circle",
+            "position": [
+                580,
+                205
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 29954
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                316,
+                65
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 30240
+        },
+        {
+            "shape": "circle",
+            "position": [
+                552,
+                140
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 30519
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                251,
+                125
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 30837
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                23,
+                151
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 31115
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                468,
+                215
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 31421
+        },
+        {
+            "shape": "circle",
+            "position": [
+                106,
+                243
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 31754
+        },
+        {
+            "shape": "oval",
+            "position": [
+                19,
+                132
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 32076
+        },
+        {
+            "shape": "oval",
+            "position": [
+                597,
+                340
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 32372
+        },
+        {
+            "shape": "oval",
+            "position": [
+                599,
+                82
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 32651
+        },
+        {
+            "shape": "oval",
+            "position": [
+                223,
+                24
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 32976
+        },
+        {
+            "shape": "oval",
+            "position": [
+                399,
+                217
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 33254
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                95,
+                227
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 33544
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                141,
+                219
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 33849
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                98,
+                61
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 34157
+        },
+        {
+            "shape": "circle",
+            "position": [
+                92,
+                324
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 34451
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                35,
+                50
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 34739
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                372,
+                265
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 35055
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                101,
+                396
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 35353
+        },
+        {
+            "shape": "circle",
+            "position": [
+                547,
+                181
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 35658
+        },
+        {
+            "shape": "oval",
+            "position": [
+                275,
+                254
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 35980
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                473,
+                282
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 36260
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                540,
+                123
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 36548
+        },
+        {
+            "shape": "circle",
+            "position": [
+                384,
+                175
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 36844
+        },
+        {
+            "shape": "oval",
+            "position": [
+                172,
+                125
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 37151
+        },
+        {
+            "shape": "oval",
+            "position": [
+                50,
+                126
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 37484
+        },
+        {
+            "shape": "circle",
+            "position": [
+                383,
+                318
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 37772
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                563,
+                119
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 38070
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                369,
+                61
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 38356
+        },
+        {
+            "shape": "circle",
+            "position": [
+                314,
+                327
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 38672
+        },
+        {
+            "shape": "circle",
+            "position": [
+                572,
+                382
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 38970
+        },
+        {
+            "shape": "oval",
+            "position": [
+                582,
+                93
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 39278
+        },
+        {
+            "shape": "circle",
+            "position": [
+                508,
+                281
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 39563
+        },
+        {
+            "shape": "circle",
+            "position": [
+                52,
+                315
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 39860
+        },
+        {
+            "shape": "circle",
+            "position": [
+                136,
+                19
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 40146
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                406,
+                93
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 40435
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                467,
+                270
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 40731
+        },
+        {
+            "shape": "circle",
+            "position": [
+                529,
+                278
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 41046
+        },
+        {
+            "shape": "circle",
+            "position": [
+                3,
+                333
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 41281
+        },
+        {
+            "shape": "circle",
+            "position": [
+                176,
+                384
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 41471
+        },
+        {
+            "shape": "circle",
+            "position": [
+                290,
+                180
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 41661
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                518,
+                226
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 41838
+        },
+        {
+            "shape": "circle",
+            "position": [
+                238,
+                77
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 42028
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                98,
+                47
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 42236
+        },
+        {
+            "shape": "oval",
+            "position": [
+                376,
+                228
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 42603
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                180,
+                359
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 42830
+        },
+        {
+            "shape": "circle",
+            "position": [
+                585,
+                36
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 43155
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                421,
+                280
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 43423
+        },
+        {
+            "shape": "circle",
+            "position": [
+                55,
+                343
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 43621
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                89,
+                178
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 43820
+        },
+        {
+            "shape": "circle",
+            "position": [
+                175,
+                92
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 44007
+        },
+        {
+            "shape": "oval",
+            "position": [
+                286,
+                388
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 44214
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                553,
+                396
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 44439
+        },
+        {
+            "shape": "circle",
+            "position": [
+                244,
+                45
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 44683
+        },
+        {
+            "shape": "circle",
+            "position": [
+                288,
+                78
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 44891
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                155,
+                176
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 45096
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                587,
+                148
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 45303
+        },
+        {
+            "shape": "oval",
+            "position": [
+                198,
+                162
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 45492
+        },
+        {
+            "shape": "circle",
+            "position": [
+                340,
+                45
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 45691
+        },
+        {
+            "shape": "circle",
+            "position": [
+                199,
+                393
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 45898
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                226,
+                127
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 46122
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                60,
+                247
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 46347
+        },
+        {
+            "shape": "oval",
+            "position": [
+                105,
+                88
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 46557
+        },
+        {
+            "shape": "circle",
+            "position": [
+                481,
+                239
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 46788
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                253,
+                170
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 47012
+        },
+        {
+            "shape": "circle",
+            "position": [
+                587,
+                229
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 47237
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                331,
+                316
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 47474
+        },
+        {
+            "shape": "circle",
+            "position": [
+                188,
+                108
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 47688
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                6,
+                16
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 47940
+        },
+        {
+            "shape": "circle",
+            "position": [
+                285,
+                73
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 48174
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                358,
+                172
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 48371
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                22,
+                194
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 48588
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                130,
+                180
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 48812
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                261,
+                338
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 49045
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                88,
+                200
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 49273
+        },
+        {
+            "shape": "circle",
+            "position": [
+                596,
+                302
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 49497
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                526,
+                57
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 49731
+        },
+        {
+            "shape": "oval",
+            "position": [
+                234,
+                22
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 49964
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                162,
+                66
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 50197
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                319,
+                372
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 50435
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                499,
+                399
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 50667
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                255,
+                115
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 50938
+        },
+        {
+            "shape": "oval",
+            "position": [
+                322,
+                121
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 51180
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                562,
+                99
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 51413
+        },
+        {
+            "shape": "circle",
+            "position": [
+                358,
+                103
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 51656
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                20,
+                280
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 51890
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                586,
+                293
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 52153
+        },
+        {
+            "shape": "circle",
+            "position": [
+                332,
+                19
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 52411
+        },
+        {
+            "shape": "circle",
+            "position": [
+                231,
+                95
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 52620
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                2,
+                274
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 52889
+        },
+        {
+            "shape": "oval",
+            "position": [
+                13,
+                73
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 53131
+        },
+        {
+            "shape": "circle",
+            "position": [
+                148,
+                27
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 53395
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                399,
+                93
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 53637
+        },
+        {
+            "shape": "circle",
+            "position": [
+                585,
+                269
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 53871
+        },
+        {
+            "shape": "oval",
+            "position": [
+                402,
+                136
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 54095
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                178,
+                199
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 54312
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                78,
+                70
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 54570
+        },
+        {
+            "shape": "oval",
+            "position": [
+                70,
+                306
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 54795
+        },
+        {
+            "shape": "circle",
+            "position": [
+                130,
+                205
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 55032
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                55,
+                285
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 55255
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                344,
+                334
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 55462
+        },
+        {
+            "shape": "oval",
+            "position": [
+                542,
+                256
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 55687
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                558,
+                356
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 55914
+        },
+        {
+            "shape": "circle",
+            "position": [
+                413,
+                389
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 56120
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                78,
+                243
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 56355
+        },
+        {
+            "shape": "circle",
+            "position": [
+                13,
+                124
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 56586
+        },
+        {
+            "shape": "oval",
+            "position": [
+                77,
+                123
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 56796
+        },
+        {
+            "shape": "circle",
+            "position": [
+                451,
+                176
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 57021
+        },
+        {
+            "shape": "circle",
+            "position": [
+                556,
+                285
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 57272
+        },
+        {
+            "shape": "circle",
+            "position": [
+                541,
+                59
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 57486
+        },
+        {
+            "shape": "circle",
+            "position": [
+                540,
+                45
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 57704
+        },
+        {
+            "shape": "circle",
+            "position": [
+                116,
+                221
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 57955
+        },
+        {
+            "shape": "circle",
+            "position": [
+                450,
+                301
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 58190
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                8,
+                158
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 58451
+        },
+        {
+            "shape": "oval",
+            "position": [
+                87,
+                27
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 58683
+        },
+        {
+            "shape": "circle",
+            "position": [
+                451,
+                175
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 58937
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                204,
+                155
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 59188
+        },
+        {
+            "shape": "oval",
+            "position": [
+                81,
+                83
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 59439
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                199,
+                175
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 59690
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                290,
+                17
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 59934
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                531,
+                136
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 60178
+        },
+        {
+            "shape": "circle",
+            "position": [
+                83,
+                12
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 60403
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                91,
+                131
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 60655
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                30,
+                49
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 60898
+        },
+        {
+            "shape": "oval",
+            "position": [
+                374,
+                232
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 61141
+        },
+        {
+            "shape": "circle",
+            "position": [
+                166,
+                346
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 61365
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                557,
+                179
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 61643
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                476,
+                265
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 61967
+        },
+        {
+            "shape": "circle",
+            "position": [
+                403,
+                265
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 62185
+        },
+        {
+            "shape": "circle",
+            "position": [
+                522,
+                338
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 62427
+        },
+        {
+            "shape": "circle",
+            "position": [
+                580,
+                377
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 62670
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                352,
+                316
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 63201
+        },
+        {
+            "shape": "oval",
+            "position": [
+                129,
+                381
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 63740
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                484,
+                25
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 64379
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                305,
+                368
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 64929
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                476,
+                13
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 65316
+        },
+        {
+            "shape": "oval",
+            "position": [
+                428,
+                136
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 65658
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                19,
+                182
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 65964
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                311,
+                262
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 66260
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                444,
+                333
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 66557
+        },
+        {
+            "shape": "oval",
+            "position": [
+                473,
+                283
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 66854
+        },
+        {
+            "shape": "oval",
+            "position": [
+                485,
+                70
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 67142
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                577,
+                147
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 67468
+        },
+        {
+            "shape": "circle",
+            "position": [
+                344,
+                396
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 67726
+        },
+        {
+            "shape": "circle",
+            "position": [
+                31,
+                396
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 68035
+        },
+        {
+            "shape": "oval",
+            "position": [
+                89,
+                174
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 68654
+        },
+        {
+            "shape": "oval",
+            "position": [
+                328,
+                117
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 68958
+        },
+        {
+            "shape": "circle",
+            "position": [
+                368,
+                347
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 69258
+        },
+        {
+            "shape": "oval",
+            "position": [
+                203,
+                133
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 69556
+        },
+        {
+            "shape": "oval",
+            "position": [
+                421,
+                17
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 70012
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                72,
+                71
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 70660
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                513,
+                37
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 71281
+        },
+        {
+            "shape": "circle",
+            "position": [
+                400,
+                20
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 71867
+        },
+        {
+            "shape": "oval",
+            "position": [
+                207,
+                56
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 72452
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                223,
+                178
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 73029
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                383,
+                338
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 73612
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                558,
+                156
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 74286
+        },
+        {
+            "shape": "circle",
+            "position": [
+                287,
+                235
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 74873
+        },
+        {
+            "shape": "oval",
+            "position": [
+                255,
+                81
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 75484
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                106,
+                50
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 76005
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                357,
+                13
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 76370
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                550,
+                322
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 76946
+        },
+        {
+            "shape": "circle",
+            "position": [
+                578,
+                215
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 77539
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                411,
+                267
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 78188
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                421,
+                156
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 78727
+        },
+        {
+            "shape": "circle",
+            "position": [
+                209,
+                231
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 79096
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                150,
+                335
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 79331
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                49,
+                105
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 79808
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                420,
+                83
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 80419
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                569,
+                304
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 81050
+        },
+        {
+            "shape": "circle",
+            "position": [
+                139,
+                193
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 81742
+        },
+        {
+            "shape": "circle",
+            "position": [
+                547,
+                44
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 82363
+        },
+        {
+            "shape": "oval",
+            "position": [
+                599,
+                135
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 82814
+        },
+        {
+            "shape": "circle",
+            "position": [
+                548,
+                190
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 83110
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                301,
+                40
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 83387
+        },
+        {
+            "shape": "oval",
+            "position": [
+                63,
+                291
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 83712
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                595,
+                182
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 83955
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                125,
+                381
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 84296
+        },
+        {
+            "shape": "circle",
+            "position": [
+                182,
+                393
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 84523
+        },
+        {
+            "shape": "oval",
+            "position": [
+                365,
+                335
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 84847
+        },
+        {
+            "shape": "oval",
+            "position": [
+                81,
+                222
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 85126
+        },
+        {
+            "shape": "oval",
+            "position": [
+                198,
+                377
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 85468
+        },
+        {
+            "shape": "oval",
+            "position": [
+                594,
+                294
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 85728
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                417,
+                125
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 86061
+        },
+        {
+            "shape": "circle",
+            "position": [
+                247,
+                48
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 86322
+        },
+        {
+            "shape": "circle",
+            "position": [
+                475,
+                104
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 86656
+        },
+        {
+            "shape": "circle",
+            "position": [
+                91,
+                303
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 86952
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                443,
+                130
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 87249
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                475,
+                42
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 87528
+        },
+        {
+            "shape": "circle",
+            "position": [
+                417,
+                125
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 88464
+        },
+        {
+            "shape": "circle",
+            "position": [
+                473,
+                23
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 88705
+        },
+        {
+            "shape": "oval",
+            "position": [
+                142,
+                121
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 89022
+        },
+        {
+            "shape": "oval",
+            "position": [
+                436,
+                362
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 89344
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                166,
+                249
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 89695
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                53,
+                363
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 89968
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                566,
+                203
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 90281
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                457,
+                84
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 90551
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                490,
+                281
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 90840
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                109,
+                270
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 91143
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                106,
+                3
+            ],
+            "color": [
+                50,
+                255,
+                50
+            ],
+            "spawn_time": 91560
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                241,
+                108
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 91775
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                201,
+                102
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 92056
+        },
+        {
+            "shape": "oval",
+            "position": [
+                416,
+                73
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 92351
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                346,
+                132
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 92640
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                243,
+                387
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 92953
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                229,
+                9
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 93260
+        },
+        {
+            "shape": "oval",
+            "position": [
+                259,
+                144
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 93557
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                214,
+                157
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 93836
+        },
+        {
+            "shape": "circle",
+            "position": [
+                347,
+                151
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 94150
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                532,
+                20
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 94455
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                392,
+                312
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 94753
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                434,
+                293
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 95031
+        },
+        {
+            "shape": "oval",
+            "position": [
+                357,
+                33
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 95356
+        },
+        {
+            "shape": "circle",
+            "position": [
+                523,
+                354
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 95644
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                115,
+                101
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 95951
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                487,
+                261
+            ],
+            "color": [
+                100,
+                50,
+                200
+            ],
+            "spawn_time": 96248
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                84,
+                112
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 96518
+        },
+        {
+            "shape": "circle",
+            "position": [
+                457,
+                331
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 96823
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                477,
+                102
+            ],
+            "color": [
+                255,
+                100,
+                50
+            ],
+            "spawn_time": 97102
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                22,
+                214
+            ],
+            "color": [
+                200,
+                0,
+                100
+            ],
+            "spawn_time": 97408
+        },
+        {
+            "shape": "oval",
+            "position": [
+                321,
+                85
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 97713
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                306,
+                136
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 98012
+        },
+        {
+            "shape": "circle",
+            "position": [
+                494,
+                239
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 98291
+        },
+        {
+            "shape": "oval",
+            "position": [
+                479,
+                164
+            ],
+            "color": [
+                150,
+                200,
+                50
+            ],
+            "spawn_time": 98558
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                100,
+                0
+            ],
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "spawn_time": 1000
+        },
+        {
+            "shape": "circle",
+            "position": [
+                300,
+                50
+            ],
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "spawn_time": 3000
+        },
+        {
+            "shape": "oval",
+            "position": [
+                500,
+                0
+            ],
+            "color": [
+                0,
+                0,
+                255
+            ],
+            "spawn_time": 5000
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                200,
+                200
+            ],
+            "color": [
+                255,
+                255,
+                0
+            ],
+            "spawn_time": 7000
+        }
+    ]
+}
