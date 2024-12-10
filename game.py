@@ -7,15 +7,7 @@ import random
 pygame.init()
 pygame.mixer.init()
 
-# Leer datos del nivel desde el archivo JSON
-with open("level-data.json", "r") as file:
-    level_data = json.load(file)
-    song_path = level_data["song"]
-    obstacles_data = level_data["obstacles"]
 
-# Reproducir la canción
-pygame.mixer.music.load(song_path)
-pygame.mixer.music.play(loops=-1)  # Reproducir en bucle
 
 # Configuración de pantalla
 WIDTH, HEIGHT = 800, 600
@@ -26,6 +18,27 @@ pygame.display.set_caption("PA_Project-Arrhythmia_Clone")
 BG_COLOR = (15, 15, 35)
 PLAYER_COLOR = (135, 206, 250)
 TEXT_COLOR = (200, 200, 200)
+TEXT_COLOR_1 = (102, 205, 170)  # Verde azulado suave
+TEXT_COLOR_2 = (120, 210, 180)
+TEXT_COLOR_3 = (140, 215, 190)
+TEXT_COLOR_4 = (160, 220, 200)
+TEXT_COLOR_5 = (180, 225, 210)
+TEXT_COLOR_6 = (200, 230, 220)
+TEXT_COLOR_7 = (220, 190, 200)  # Matiz más rosado
+TEXT_COLOR_8 = (210, 175, 185)
+TEXT_COLOR_9 = (200, 160, 170)
+TEXT_COLOR_10 = (190, 145, 155)
+TEXT_COLOR_11 = (180, 130, 140)
+TEXT_COLOR_12 = (170, 115, 125)
+TEXT_COLOR_13 = (160, 130, 160)  # Tono intermedio con mezcla azul-rosada
+TEXT_COLOR_14 = (150, 145, 175)
+TEXT_COLOR_15 = (140, 160, 190)
+TEXT_COLOR_16 = (130, 175, 205)
+TEXT_COLOR_17 = (120, 190, 220)
+TEXT_COLOR_18 = (110, 205, 235)
+TEXT_COLOR_19 = (100, 220, 250)  # Más azul claro
+TEXT_COLOR_20 = (90, 235, 245)
+
 
 # Jugador
 player_size = 30
@@ -38,8 +51,21 @@ is_dashing = False
 dash_start_time = 0
 last_dash_time = 0
 
+#Obstaculos
+json_archive = "level-data.json"
+
 # Fuente para texto
 font = pygame.font.SysFont(None, 24)
+
+# Leer datos del nivel desde el archivo JSON
+with open(json_archive, "r") as file:
+    level_data = json.load(file)
+    song_path = level_data["song"]
+    obstacles_data = level_data["obstacles"]
+    
+# Reproducir la canción
+pygame.mixer.music.load(song_path)
+pygame.mixer.music.play(loops=-1)  # Reproducir en bucle
 
 # Clase para un obstáculo
 class Obstacle:
@@ -101,6 +127,34 @@ spawn_index = 0
 obstacles = []
 particles = []  # Lista de partículas activas
 
+# Cargar colores desde archivo JSON
+with open('font_colors.json', 'r') as file:
+    colors = json.load(file)
+
+# Fuente para texto
+font_size = 24
+font = pygame.font.SysFont(None, font_size)
+
+# Función para renderizar el texto con colores dinámicos
+def render_colored_text(text, base_color):
+    x_pos = 10  # Posición inicial en X
+    y_pos = 10  # Posición inicial en Y
+
+    # Renderizar "Level:" con el color base
+    level_text = font.render("Level:", True, base_color)
+    screen.blit(level_text, (x_pos, y_pos))
+    x_pos += level_text.get_width() + 5  # Desplazamos la posición para el siguiente texto
+
+    # Renderizar "First Test UwU" letra por letra con diferentes colores
+    for i, char in enumerate(text):
+        # Asignamos colores específicos a cada letra
+        color_key = f"TEXT_COLOR_{(i % 20) + 1}"
+        color = tuple(colors[color_key])
+
+        letter_surface = font.render(char, True, color)
+        screen.blit(letter_surface, (x_pos, y_pos))
+        x_pos += letter_surface.get_width()  # Avanzar a la derecha para la siguiente letra
+
 # Bucle principal del juego
 while running:
     screen.fill(BG_COLOR)
@@ -161,7 +215,7 @@ while running:
             ))
 
             # Agregar 5 obstáculos adicionales con posiciones aleatorias, pero asegurando que haya un camino libre
-            for _ in range(5):
+            for _ in range(1):
                 random_x = random.randint(0, WIDTH - 40)
                 random_y = random.randint(0, HEIGHT - 40)
                 # Verificar si el espacio está despejado antes de agregar el obstáculo
@@ -179,19 +233,18 @@ while running:
     for obstacle in obstacles:
         obstacle.update()
         obstacle.draw(screen)
-
-        # Detectar colisiones
-        if player_pos[0] < obstacle.x + 40 and player_pos[0] + player_size > obstacle.x and \
-           player_pos[1] < obstacle.y + 40 and player_pos[1] + player_size > obstacle.y:
-            print("¡Colisión! Has perdido.")
-            running = False
+        if not is_dashing:
+            # Detectar colisiones
+            if player_pos[0] < obstacle.x + 40 and player_pos[0] + player_size > obstacle.x and \
+            player_pos[1] < obstacle.y + 40 and player_pos[1] + player_size > obstacle.y:
+                print("¡Colisión! Has perdido.")
+                running = False
 
     # Dibujar jugador
-    pygame.draw.rect(screen, PLAYER_COLOR, (player_pos[0], player_pos[1], player_size, player_size))
+    pygame.draw.rect(screen, PLAYER_COLOR, (player_pos[0], player_pos[1], player_size, player_size) )
 
-    # Mostrar texto del nivel
-    text = font.render("Level: Music Synced", True, TEXT_COLOR)
-    screen.blit(text, (10, 10))
+    # Dibujar texto con colores dinámicos
+    render_colored_text("First Test UwU", tuple(colors['TEXT_COLOR']))
 
     pygame.display.flip()
     clock.tick(60)
