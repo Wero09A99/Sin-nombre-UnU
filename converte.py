@@ -28,11 +28,13 @@ for time in times:
     shape = random.choice(shapes)
     color = random.choice(colors)
     position = [random.randint(0, 600), random.randint(0, 400)]  # Posiciones aleatorias
+    speed = random.uniform(3, 7)  # Velocidad aleatoria entre 3 y 7
     new_obstacles.append({
         "shape": shape,
         "position": position,
         "color": color,
-        "spawn_time": time
+        "spawn_time": time,
+        "speed": speed
     })
 
 # Añadir los obstáculos preexistentes del JSON original
@@ -45,7 +47,7 @@ final_json = {
 }
 
 # Guardar el JSON final en un archivo
-with open('generated_obstacles.json', 'w') as output_file:
+with open("level-data.json", 'w') as output_file:
     json.dump(final_json, output_file, indent=4)
 
 print("Archivo JSON generado: generated_obstacles.json")
