@@ -8,9 +8,9 @@ pygame.init()
 pygame.mixer.init()
 
 # Configuración de pantalla
-WIDTH, HEIGHT = 800, 600
+WIDTH, HEIGHT = 1000, 900
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("PA_Project-Arrhythmia_Clone")
+pygame.display.set_caption("UwU")
 
 # Colores
 BG_COLOR = (15, 15, 35)
@@ -39,6 +39,7 @@ with open(json_archive, "r") as file:
     level_data = json.load(file)
     song_path = level_data["song"]
     obstacles_data = level_data["obstacles"]
+    level_name = level_data.get("level_name", "Unknown Level")  # Obtener el nombre del nivel
 
 # Reproducir la canción
 pygame.mixer.music.load(song_path)
@@ -46,16 +47,71 @@ pygame.mixer.music.play(loops=-1)  # Reproducir en bucle
 
 # Clase para un obstáculo
 class Obstacle:
-    def __init__(self, shape, position, color, speed):
+    def __init__(self, shape, position, color, speed, direction):
         self.shape = shape
         self.x, self.y = position
         self.color = tuple(color)
         self.speed = speed
+        self.direction = direction
+        self.init_position()
+
+    def init_position(self):
+        """Inicializa la posición según la dirección."""
+        if self.direction == "center_to_outside":
+            self.x, self.y = WIDTH // 2, HEIGHT // 2
+        elif self.direction == "top_to_bottom":
+            self.x = random.randint(0, WIDTH)
+            self.y = 0
+        elif self.direction == "left_to_right":
+            self.x = 0
+            self.y = random.randint(0, HEIGHT)
+        elif self.direction == "edges_to_center":
+            edge = random.choice(["top", "bottom", "left", "right"])
+            if edge == "top":
+                self.x = random.randint(0, WIDTH)
+                self.y = 0
+            elif edge == "bottom":
+                self.x = random.randint(0, WIDTH)
+                self.y = HEIGHT
+            elif edge == "left":
+                self.x = 0
+                self.y = random.randint(0, HEIGHT)
+            elif edge == "right":
+                self.x = WIDTH
+                self.y = random.randint(0, HEIGHT)
 
     def update(self):
-        self.y += self.speed
+        """Actualiza la posición del obstáculo según su dirección."""
+        if self.direction == "center_to_outside":
+            if self.x < WIDTH // 2:
+                self.x -= self.speed
+            else:
+                self.x += self.speed
+
+            if self.y < HEIGHT // 2:
+                self.y -= self.speed
+            else:
+                self.y += self.speed
+
+        elif self.direction == "top_to_bottom":
+            self.y += self.speed
+
+        elif self.direction == "left_to_right":
+            self.x += self.speed
+
+        elif self.direction == "edges_to_center":
+            if self.x < WIDTH // 2:
+                self.x += self.speed
+            else:
+                self.x -= self.speed
+
+            if self.y < HEIGHT // 2:
+                self.y += self.speed
+            else:
+                self.y -= self.speed
 
     def draw(self, screen):
+        """Dibuja el obstáculo en pantalla."""
         if self.shape == "rectangle":
             pygame.draw.rect(screen, self.color, (self.x, self.y, 40, 40))
         elif self.shape == "circle":
@@ -107,6 +163,10 @@ while running:
             pygame.quit()
             sys.exit()
 
+    # Dibujar texto del nivel
+    level_text = font.render(f"Level: {level_name}", True, (255, 255, 255))  # Texto en color blanco
+    screen.blit(level_text, (10, 10))  # Dibujar en la esquina superior izquierda
+
     # Movimiento del jugador
     keys = pygame.key.get_pressed()
 
@@ -153,7 +213,7 @@ while running:
     # Generar nuevos obstáculos basados en el tiempo
     if spawn_index < len(obstacles_data) and current_time >= obstacles_data[spawn_index]["spawn_time"]:
         data = obstacles_data[spawn_index]
-        obstacle = Obstacle(data["shape"], data["position"], data["color"], data["speed"])
+        obstacle = Obstacle(data["shape"], data["position"], data["color"], data["speed"], data["direction"])
         obstacles.append(obstacle)
         spawn_index += 1
 

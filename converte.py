@@ -21,17 +21,21 @@ colors = [
     [150, 200, 50],  # verde amarillento
     [255, 100, 50]   # naranja
 ]
+directions = ["center_to_outside", "top_to_bottom", "left_to_right", "edges_to_center"]
 
 # Crear una lista de obstáculos a partir de los tiempos
 new_obstacles = []
 for time in times:
     shape = random.choice(shapes)
     color = random.choice(colors)
-    position = [random.randint(0, 600), random.randint(0, 400)]  # Posiciones aleatorias
-    speed = random.uniform(3, 7)  # Velocidad aleatoria entre 3 y 7
+    direction = random.choice(directions)
+    position = [random.randint(0, 800), random.randint(0, 600)]  # Posiciones aleatorias
+    speed = random.uniform(4, 7)  # Velocidad aleatoria entre 3 y 7
+
     new_obstacles.append({
         "shape": shape,
         "position": position,
+        "direction": direction,
         "color": color,
         "spawn_time": time,
         "speed": speed
@@ -39,15 +43,17 @@ for time in times:
 
 # Añadir los obstáculos preexistentes del JSON original
 new_obstacles.extend(obstacles_data["obstacles"])
-
-# Crear el nuevo JSON
+# Crear el nuevo JSON, incluyendo el nombre del nivel
+level_name = "First Test"  # Cambia el nombre según sea necesario
 final_json = {
     "song": obstacles_data["song"],
+    "level_name": level_name,  # Nuevo campo para el nombre del nivel
     "obstacles": new_obstacles
 }
+
 
 # Guardar el JSON final en un archivo
 with open("level-data.json", 'w') as output_file:
     json.dump(final_json, output_file, indent=4)
 
-print("Archivo JSON generado: generated_obstacles.json")
+print("Archivo JSON generado: level-data.json")
