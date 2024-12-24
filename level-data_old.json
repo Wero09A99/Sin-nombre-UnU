@@ -1,5 +1,6 @@
 {
   "song": "resources/[PA] Geoxor - Virtual Arcadia 2020.ogg",
+  "level_name": "First Test",
   "obstacles": [
       {
           "shape": "rectangle",

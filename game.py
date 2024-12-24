@@ -12,8 +12,6 @@ WIDTH, HEIGHT = 1000, 900
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("UwU")
 
-# Colores
-BG_COLOR = (15, 15, 35)
 PLAYER_COLOR = (135, 206, 250)
 FIRE_COLORS = [(255, 69, 0), (255, 140, 0), (255, 215, 0)]
 
@@ -22,7 +20,7 @@ player_size = 30
 player_pos = [WIDTH // 2, HEIGHT - 100]
 player_speed = 5
 dash_speed = 15
-dash_duration = 200  # Duración del dash en milisegundos
+dash_duration = 300  # Duración del dash en milisegundos
 dash_cooldown = 400  # Tiempo entre dashes en milisegundos
 is_dashing = False
 dash_start_time = 0
@@ -32,7 +30,7 @@ last_dash_time = 0
 json_archive = "level-data.json"
 
 # Fuente para texto
-font = pygame.font.SysFont(None, 24)
+font = pygame.font.SysFont(None, 30)
 
 # Leer datos del nivel desde el archivo JSON
 with open(json_archive, "r") as file:
@@ -40,6 +38,8 @@ with open(json_archive, "r") as file:
     song_path = level_data["song"]
     obstacles_data = level_data["obstacles"]
     level_name = level_data.get("level_name", "Unknown Level")  # Obtener el nombre del nivel
+    # Obtener el color de fondo
+    background_color = level_data["background_color"]
 
 # Reproducir la canción
 pygame.mixer.music.load(song_path)
@@ -154,7 +154,7 @@ particles = []  # Lista de partículas activas
 
 # Bucle principal del juego
 while running:
-    screen.fill(BG_COLOR)
+    screen.fill(background_color)
     current_time = pygame.mixer.music.get_pos()  # Tiempo transcurrido desde que inició la canción
 
     # Manejo de eventos
