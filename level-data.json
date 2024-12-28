@@ -2,91 +2,16 @@
     "song": "resources/[PA] Geoxor - Virtual Arcadia 2020.ogg",
     "level_name": "First Test",
     "background_color": [
+        160,
         120,
-        100,
-        160
+        190
     ],
     "obstacles": [
         {
-            "shape": "custom_shape",
+            "shape": "circle",
             "position": [
-                644,
-                352
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 5019,
-            "speed": 6.220537734675809
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                379,
-                42
-            ],
-            "direction": "left_to_right",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 5856,
-            "speed": 5.218300126524332
-        },
-        {
-            "shape": "oval",
-            "position": [
-                542,
-                278
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 7350,
-            "speed": 6.879107906578339
-        },
-        {
-            "shape": "oval",
-            "position": [
-                681,
-                546
-            ],
-            "direction": "left_to_right",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 8222,
-            "speed": 5.757661358097118
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                126,
-                230
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 9788,
-            "speed": 5.67305580637451
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                239,
-                406
+                661,
+                421
             ],
             "direction": "left_to_right",
             "color": [
@@ -94,74 +19,143 @@
                 182,
                 193
             ],
-            "spawn_time": 10660,
-            "speed": 4.093498482395776
+            "spawn_time": 5019,
+            "speed": 4.784278665989965,
+            "size": 67
         },
         {
-            "shape": "custom_shape",
+            "shape": "oval",
             "position": [
-                726,
-                356
+                625,
+                152
             ],
-            "direction": "center_to_outside",
+            "direction": "edges_to_center",
             "color": [
                 255,
                 255,
                 224
             ],
-            "spawn_time": 12171,
-            "speed": 6.121086376935487
+            "spawn_time": 5856,
+            "speed": 4.019298035199028,
+            "size": 52
         },
         {
             "shape": "oval",
             "position": [
-                530,
-                183
+                173,
+                82
             ],
-            "direction": "left_to_right",
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 7350,
+            "speed": 6.327921416366102,
+            "size": 60
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                649,
+                396
+            ],
+            "direction": "center_to_outside",
             "color": [
                 255,
                 218,
                 185
             ],
-            "spawn_time": 13029,
-            "speed": 6.417439729686553
+            "spawn_time": 8222,
+            "speed": 6.54679601700346,
+            "size": 66
         },
         {
             "shape": "circle",
             "position": [
-                121,
-                513
+                271,
+                134
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 9788,
+            "speed": 5.8194658111935595,
+            "size": 93
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                9,
+                279
             ],
             "direction": "left_to_right",
+            "color": [
+                255,
+                222,
+                173
+            ],
+            "spawn_time": 10660,
+            "speed": 5.2940377290371785,
+            "size": 73
+        },
+        {
+            "shape": "circle",
+            "position": [
+                70,
+                27
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 12171,
+            "speed": 6.931894279638699,
+            "size": 95
+        },
+        {
+            "shape": "circle",
+            "position": [
+                106,
+                450
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 13029,
+            "speed": 6.710126479647883,
+            "size": 83
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                522,
+                275
+            ],
+            "direction": "edges_to_center",
             "color": [
                 173,
                 216,
                 230
             ],
             "spawn_time": 14549,
-            "speed": 5.896080618136903
+            "speed": 6.539134265548967,
+            "size": 61
         },
         {
-            "shape": "circle",
+            "shape": "oval",
             "position": [
-                729,
-                317
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 15456,
-            "speed": 5.289438667622793
-        },
-        {
-            "shape": "circle",
-            "position": [
-                247,
-                598
+                302,
+                338
             ],
             "direction": "edges_to_center",
             "color": [
@@ -169,254 +163,287 @@
                 216,
                 230
             ],
+            "spawn_time": 15456,
+            "speed": 5.319901715750288,
+            "size": 99
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                659,
+                382
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                255,
+                224
+            ],
             "spawn_time": 16951,
-            "speed": 6.318429664065204
+            "speed": 5.017303892940458,
+            "size": 93
+        },
+        {
+            "shape": "oval",
+            "position": [
+                784,
+                155
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 17861,
+            "speed": 5.993742840353075,
+            "size": 99
         },
         {
             "shape": "custom_shape",
             "position": [
-                249,
-                138
+                502,
+                263
             ],
-            "direction": "left_to_right",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 17861,
-            "speed": 4.948430647917929
-        },
-        {
-            "shape": "circle",
-            "position": [
-                409,
-                397
-            ],
-            "direction": "left_to_right",
+            "direction": "edges_to_center",
             "color": [
                 255,
                 182,
                 193
             ],
             "spawn_time": 19379,
-            "speed": 4.57977400144634
+            "speed": 6.417516202309225,
+            "size": 77
         },
         {
-            "shape": "custom_shape",
+            "shape": "rectangle",
             "position": [
-                589,
-                110
+                270,
+                389
             ],
-            "direction": "center_to_outside",
+            "direction": "top_to_bottom",
             "color": [
                 255,
-                218,
-                185
+                182,
+                193
             ],
             "spawn_time": 20279,
-            "speed": 5.86342501128848
+            "speed": 6.929757179100532,
+            "size": 82
         },
         {
-            "shape": "circle",
+            "shape": "rectangle",
             "position": [
-                734,
-                478
+                717,
+                493
             ],
             "direction": "edges_to_center",
             "color": [
-                173,
-                216,
-                230
+                255,
+                255,
+                224
             ],
             "spawn_time": 21836,
-            "speed": 5.198897882472848
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                130,
-                315
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 22133,
-            "speed": 6.849878535181079
+            "speed": 4.976926359735175,
+            "size": 52
         },
         {
             "shape": "oval",
             "position": [
-                160,
-                271
+                82,
+                459
             ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 22410,
-            "speed": 5.3739564250612215
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                406,
-                223
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 22699,
-            "speed": 6.3071556020613055
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                500,
-                97
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 23024,
-            "speed": 5.113025246397625
-        },
-        {
-            "shape": "circle",
-            "position": [
-                286,
-                116
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 23340,
-            "speed": 6.922536302524682
-        },
-        {
-            "shape": "circle",
-            "position": [
-                533,
-                426
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 23628,
-            "speed": 5.826511088510152
-        },
-        {
-            "shape": "circle",
-            "position": [
-                548,
-                536
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 23931,
-            "speed": 5.562804067731534
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                669,
-                303
-            ],
-            "direction": "left_to_right",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 24221,
-            "speed": 4.924598847375065
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                166,
-                115
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 24516,
-            "speed": 6.313837978751522
-        },
-        {
-            "shape": "oval",
-            "position": [
-                729,
-                542
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 24824,
-            "speed": 5.516092343591501
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                20,
-                393
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 25147,
-            "speed": 6.540816180938896
-        },
-        {
-            "shape": "oval",
-            "position": [
-                502,
-                365
-            ],
-            "direction": "edges_to_center",
+            "direction": "top_to_bottom",
             "color": [
                 255,
                 218,
                 185
             ],
-            "spawn_time": 25435,
-            "speed": 5.284753365850855
+            "spawn_time": 22133,
+            "speed": 5.9967090164085315,
+            "size": 63
         },
         {
             "shape": "oval",
             "position": [
-                191,
-                49
+                665,
+                475
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 22410,
+            "speed": 4.348499345358887,
+            "size": 68
+        },
+        {
+            "shape": "oval",
+            "position": [
+                35,
+                199
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 22699,
+            "speed": 6.020281396828537,
+            "size": 51
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                454,
+                211
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 23024,
+            "speed": 6.435146791694342,
+            "size": 74
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                212,
+                255
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 23340,
+            "speed": 4.981383097203186,
+            "size": 87
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                390,
+                287
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 23628,
+            "speed": 5.211818145697635,
+            "size": 67
+        },
+        {
+            "shape": "circle",
+            "position": [
+                793,
+                334
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 23931,
+            "speed": 4.035609586346251,
+            "size": 78
+        },
+        {
+            "shape": "circle",
+            "position": [
+                490,
+                397
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 24221,
+            "speed": 6.436787316877711,
+            "size": 62
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                744,
+                570
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 24516,
+            "speed": 5.367115176379781,
+            "size": 70
+        },
+        {
+            "shape": "circle",
+            "position": [
+                710,
+                554
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 24824,
+            "speed": 5.926150731951951,
+            "size": 68
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                325,
+                5
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 25147,
+            "speed": 5.954297100714245,
+            "size": 100
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                16,
+                141
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 25435,
+            "speed": 6.079780527717347,
+            "size": 71
+        },
+        {
+            "shape": "oval",
+            "position": [
+                554,
+                243
             ],
             "direction": "top_to_bottom",
             "color": [
@@ -425,28 +452,14 @@
                 193
             ],
             "spawn_time": 25724,
-            "speed": 4.009991524919983
+            "speed": 5.029551177721726,
+            "size": 55
         },
         {
-            "shape": "rectangle",
+            "shape": "circle",
             "position": [
-                494,
-                484
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 26037,
-            "speed": 6.689789636459681
-        },
-        {
-            "shape": "oval",
-            "position": [
-                503,
-                480
+                426,
+                244
             ],
             "direction": "center_to_outside",
             "color": [
@@ -454,224 +467,271 @@
                 222,
                 173
             ],
-            "spawn_time": 26355,
-            "speed": 6.5631430270310105
+            "spawn_time": 26037,
+            "speed": 5.277538400737628,
+            "size": 83
         },
         {
-            "shape": "circle",
+            "shape": "custom_shape",
             "position": [
-                642,
-                243
+                385,
+                225
             ],
             "direction": "edges_to_center",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 26355,
+            "speed": 5.538528061443425,
+            "size": 97
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                707,
+                153
+            ],
+            "direction": "center_to_outside",
             "color": [
                 255,
                 255,
                 224
             ],
             "spawn_time": 26649,
-            "speed": 4.187663717364913
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                582,
-                10
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 26949,
-            "speed": 4.953845361702847
+            "speed": 5.14289737218627,
+            "size": 70
         },
         {
             "shape": "oval",
             "position": [
-                91,
-                226
+                724,
+                533
             ],
-            "direction": "center_to_outside",
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 26949,
+            "speed": 5.579647883254197,
+            "size": 60
+        },
+        {
+            "shape": "circle",
+            "position": [
+                55,
+                314
+            ],
+            "direction": "top_to_bottom",
             "color": [
                 255,
                 182,
                 193
             ],
             "spawn_time": 27235,
-            "speed": 5.5535573095329775
+            "speed": 5.3060719272394365,
+            "size": 74
         },
         {
-            "shape": "circle",
+            "shape": "rectangle",
             "position": [
-                292,
-                275
+                404,
+                122
             ],
-            "direction": "center_to_outside",
+            "direction": "edges_to_center",
             "color": [
                 255,
                 240,
                 245
             ],
             "spawn_time": 27523,
-            "speed": 4.346881877430288
+            "speed": 4.1425960110938185,
+            "size": 81
         },
         {
             "shape": "custom_shape",
             "position": [
-                615,
-                531
+                178,
+                347
             ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 27837,
-            "speed": 6.276635239048579
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                176,
-                446
-            ],
-            "direction": "left_to_right",
+            "direction": "top_to_bottom",
             "color": [
                 173,
                 216,
                 230
             ],
-            "spawn_time": 28135,
-            "speed": 4.98578049791678
+            "spawn_time": 27837,
+            "speed": 6.064664329675101,
+            "size": 62
         },
         {
-            "shape": "rectangle",
+            "shape": "circle",
             "position": [
-                41,
-                438
+                228,
+                434
             ],
             "direction": "top_to_bottom",
             "color": [
                 255,
-                222,
-                173
+                218,
+                185
             ],
-            "spawn_time": 28433,
-            "speed": 6.496793923025082
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                354,
-                76
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 28720,
-            "speed": 4.963692775660834
+            "spawn_time": 28135,
+            "speed": 5.897241963626563,
+            "size": 61
         },
         {
             "shape": "oval",
             "position": [
-                24,
-                500
+                726,
+                569
             ],
-            "direction": "edges_to_center",
+            "direction": "left_to_right",
             "color": [
                 255,
                 240,
                 245
             ],
-            "spawn_time": 29351,
-            "speed": 5.960624933053622
+            "spawn_time": 28433,
+            "speed": 4.19855739106212,
+            "size": 75
         },
         {
-            "shape": "oval",
+            "shape": "custom_shape",
             "position": [
-                22,
-                506
+                680,
+                257
             ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 29655,
-            "speed": 4.701713287723408
-        },
-        {
-            "shape": "oval",
-            "position": [
-                410,
-                102
-            ],
-            "direction": "edges_to_center",
+            "direction": "left_to_right",
             "color": [
                 144,
                 238,
                 144
             ],
+            "spawn_time": 28720,
+            "speed": 5.175489048877827,
+            "size": 72
+        },
+        {
+            "shape": "oval",
+            "position": [
+                472,
+                596
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 29351,
+            "speed": 4.8733227372227335,
+            "size": 73
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                576,
+                56
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 29655,
+            "speed": 6.800210567780873,
+            "size": 59
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                674,
+                42
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                228,
+                225
+            ],
             "spawn_time": 29954,
-            "speed": 4.910954605515861
+            "speed": 6.308883105536274,
+            "size": 71
         },
         {
             "shape": "circle",
             "position": [
-                381,
-                98
+                22,
+                20
             ],
-            "direction": "center_to_outside",
+            "direction": "edges_to_center",
             "color": [
                 173,
                 216,
                 230
             ],
             "spawn_time": 30240,
-            "speed": 5.228746836690522
+            "speed": 5.74915174245883,
+            "size": 85
         },
         {
-            "shape": "rectangle",
+            "shape": "oval",
             "position": [
-                633,
-                334
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 30519,
-            "speed": 6.130277708139516
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                654,
+                382,
                 427
             ],
             "direction": "left_to_right",
             "color": [
-                173,
-                216,
-                230
+                255,
+                182,
+                193
             ],
-            "spawn_time": 30837,
-            "speed": 4.357164779192235
+            "spawn_time": 30519,
+            "speed": 6.746686840061751,
+            "size": 79
         },
         {
-            "shape": "circle",
+            "shape": "custom_shape",
             "position": [
-                610,
-                282
+                790,
+                332
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 30837,
+            "speed": 4.702183542409668,
+            "size": 62
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                379,
+                542
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 31115,
+            "speed": 6.931056796668033,
+            "size": 95
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                213,
+                137
             ],
             "direction": "edges_to_center",
             "color": [
@@ -679,209 +739,111 @@
                 238,
                 144
             ],
-            "spawn_time": 31115,
-            "speed": 6.735802360680165
-        },
-        {
-            "shape": "oval",
-            "position": [
-                462,
-                530
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                240,
-                245
-            ],
             "spawn_time": 31421,
-            "speed": 6.5694040285465185
+            "speed": 4.911392388329789,
+            "size": 80
         },
         {
-            "shape": "rectangle",
+            "shape": "circle",
             "position": [
-                647,
-                556
+                643,
+                353
             ],
-            "direction": "edges_to_center",
+            "direction": "top_to_bottom",
             "color": [
                 255,
-                240,
-                245
+                182,
+                193
             ],
             "spawn_time": 31754,
-            "speed": 6.98107955936673
+            "speed": 6.404876390286823,
+            "size": 56
         },
         {
-            "shape": "circle",
+            "shape": "custom_shape",
             "position": [
-                121,
-                201
+                310,
+                291
             ],
-            "direction": "edges_to_center",
+            "direction": "center_to_outside",
             "color": [
-                173,
-                216,
-                230
+                255,
+                218,
+                185
             ],
             "spawn_time": 32076,
-            "speed": 4.4493792950504725
+            "speed": 4.431554099393733,
+            "size": 95
         },
         {
             "shape": "circle",
             "position": [
-                376,
-                257
+                394,
+                388
             ],
-            "direction": "left_to_right",
+            "direction": "top_to_bottom",
             "color": [
                 255,
                 218,
                 185
             ],
             "spawn_time": 32372,
-            "speed": 6.639724898518244
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                369,
-                131
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 32651,
-            "speed": 6.882453875529295
-        },
-        {
-            "shape": "oval",
-            "position": [
-                231,
-                253
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 32976,
-            "speed": 6.6247690021430525
+            "speed": 6.564582743526169,
+            "size": 99
         },
         {
             "shape": "custom_shape",
             "position": [
-                96,
-                490
+                215,
+                519
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 32651,
+            "speed": 5.387106869694371,
+            "size": 92
+        },
+        {
+            "shape": "oval",
+            "position": [
+                59,
+                18
             ],
             "direction": "top_to_bottom",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 32976,
+            "speed": 4.097554135474921,
+            "size": 82
+        },
+        {
+            "shape": "oval",
+            "position": [
+                195,
+                387
+            ],
+            "direction": "center_to_outside",
             "color": [
                 144,
                 238,
                 144
             ],
             "spawn_time": 33254,
-            "speed": 4.090021412316388
+            "speed": 4.420424075357506,
+            "size": 97
         },
         {
             "shape": "circle",
             "position": [
-                730,
-                152
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 33544,
-            "speed": 4.475774029409418
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                168,
-                180
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
                 222,
-                173
-            ],
-            "spawn_time": 33849,
-            "speed": 4.983722504137072
-        },
-        {
-            "shape": "circle",
-            "position": [
-                556,
-                553
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 34157,
-            "speed": 6.777970849478233
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                397,
-                145
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 34451,
-            "speed": 4.259862693549269
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                140,
-                239
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 34739,
-            "speed": 6.953656446352607
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                635,
-                470
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                144,
-                238,
                 144
-            ],
-            "spawn_time": 35055,
-            "speed": 5.581981783681289
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                196,
-                485
             ],
             "direction": "left_to_right",
             "color": [
@@ -889,193 +851,190 @@
                 240,
                 245
             ],
-            "spawn_time": 35353,
-            "speed": 5.495780269808051
+            "spawn_time": 33544,
+            "speed": 5.921803799887764,
+            "size": 59
         },
         {
-            "shape": "custom_shape",
+            "shape": "circle",
             "position": [
-                493,
-                589
+                129,
+                528
+            ],
+            "direction": "left_to_right",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 33849,
+            "speed": 4.610320989504936,
+            "size": 98
+        },
+        {
+            "shape": "circle",
+            "position": [
+                689,
+                410
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 34157,
+            "speed": 5.203909407604497,
+            "size": 67
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                669,
+                561
             ],
             "direction": "center_to_outside",
             "color": [
                 255,
-                240,
-                245
+                255,
+                224
             ],
-            "spawn_time": 35658,
-            "speed": 5.164172255511863
+            "spawn_time": 34451,
+            "speed": 5.888628190563654,
+            "size": 100
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                51,
+                5
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 34739,
+            "speed": 6.696266154767457,
+            "size": 92
         },
         {
             "shape": "oval",
             "position": [
-                324,
-                280
+                594,
+                105
             ],
-            "direction": "top_to_bottom",
+            "direction": "center_to_outside",
             "color": [
                 255,
                 228,
                 225
             ],
+            "spawn_time": 35055,
+            "speed": 6.5026102117634395,
+            "size": 51
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                445,
+                83
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 35353,
+            "speed": 4.6050931447136705,
+            "size": 58
+        },
+        {
+            "shape": "oval",
+            "position": [
+                237,
+                592
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 35658,
+            "speed": 6.696045549548843,
+            "size": 82
+        },
+        {
+            "shape": "circle",
+            "position": [
+                123,
+                505
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                218,
+                185
+            ],
             "spawn_time": 35980,
-            "speed": 4.198166047756353
+            "speed": 6.8485033102829345,
+            "size": 97
         },
         {
             "shape": "rectangle",
             "position": [
                 455,
-                194
+                599
             ],
-            "direction": "top_to_bottom",
+            "direction": "center_to_outside",
             "color": [
                 255,
                 228,
                 225
             ],
             "spawn_time": 36260,
-            "speed": 6.918457115370808
+            "speed": 4.8915154472662605,
+            "size": 99
         },
         {
-            "shape": "oval",
+            "shape": "custom_shape",
             "position": [
-                654,
-                542
+                140,
+                464
             ],
-            "direction": "left_to_right",
+            "direction": "center_to_outside",
             "color": [
                 173,
                 216,
                 230
             ],
             "spawn_time": 36548,
-            "speed": 4.404245543137324
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                750,
-                325
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 36844,
-            "speed": 4.938796243802366
+            "speed": 5.88212373771794,
+            "size": 67
         },
         {
             "shape": "circle",
             "position": [
-                718,
-                201
+                525,
+                253
             ],
-            "direction": "left_to_right",
+            "direction": "edges_to_center",
             "color": [
                 255,
                 182,
                 193
             ],
-            "spawn_time": 37151,
-            "speed": 5.1261700145208025
+            "spawn_time": 36844,
+            "speed": 5.386188617152673,
+            "size": 69
         },
         {
             "shape": "oval",
             "position": [
-                384,
-                171
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 37484,
-            "speed": 6.662975068897973
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                424,
-                543
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 37772,
-            "speed": 4.44446507210691
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                597,
-                500
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 38070,
-            "speed": 5.5161310413757265
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                110,
-                436
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 38356,
-            "speed": 6.547332976349953
-        },
-        {
-            "shape": "oval",
-            "position": [
-                290,
-                497
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 38672,
-            "speed": 4.60940858164437
-        },
-        {
-            "shape": "oval",
-            "position": [
-                374,
-                345
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 38970,
-            "speed": 6.9476799157937545
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                583,
+                628,
                 591
             ],
             "direction": "center_to_outside",
@@ -1084,599 +1043,15 @@
                 182,
                 193
             ],
-            "spawn_time": 39278,
-            "speed": 6.389196881778693
-        },
-        {
-            "shape": "oval",
-            "position": [
-                142,
-                127
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 39563,
-            "speed": 6.110406330979625
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                312,
-                202
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 39860,
-            "speed": 5.931259134725997
-        },
-        {
-            "shape": "circle",
-            "position": [
-                252,
-                598
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 40146,
-            "speed": 5.771949069485024
-        },
-        {
-            "shape": "oval",
-            "position": [
-                71,
-                65
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 40435,
-            "speed": 5.353414688983529
-        },
-        {
-            "shape": "oval",
-            "position": [
-                504,
-                75
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 40731,
-            "speed": 6.93185302167686
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                372,
-                600
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 41046,
-            "speed": 5.9390059502375525
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                736,
-                332
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 41281,
-            "speed": 6.130648016219512
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                335,
-                191
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 41471,
-            "speed": 6.237200517403647
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                115,
-                195
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 41661,
-            "speed": 5.9314339529251825
-        },
-        {
-            "shape": "oval",
-            "position": [
-                208,
-                257
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 41838,
-            "speed": 4.407013050800602
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                3,
-                276
-            ],
-            "direction": "left_to_right",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 42028,
-            "speed": 4.809094876372244
+            "spawn_time": 37151,
+            "speed": 4.320687914386533,
+            "size": 90
         },
         {
             "shape": "custom_shape",
-            "position": [
-                761,
-                421
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 42236,
-            "speed": 4.800129872359661
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                24,
-                452
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 42603,
-            "speed": 4.8865358023902274
-        },
-        {
-            "shape": "circle",
-            "position": [
-                487,
-                421
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 42830,
-            "speed": 6.842808726748838
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                36,
-                162
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 43155,
-            "speed": 4.266938068089433
-        },
-        {
-            "shape": "oval",
-            "position": [
-                722,
-                445
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 43423,
-            "speed": 5.4896241640506105
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                781,
-                366
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 43621,
-            "speed": 4.3755867769820735
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                240,
-                17
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 43820,
-            "speed": 4.368058017080525
-        },
-        {
-            "shape": "oval",
-            "position": [
-                610,
-                179
-            ],
-            "direction": "left_to_right",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 44007,
-            "speed": 4.231619633091599
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                92,
-                26
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 44214,
-            "speed": 4.033194522471274
-        },
-        {
-            "shape": "oval",
-            "position": [
-                327,
-                360
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 44439,
-            "speed": 5.1151838989735605
-        },
-        {
-            "shape": "circle",
-            "position": [
-                548,
-                210
-            ],
-            "direction": "left_to_right",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 44683,
-            "speed": 4.6646609066309335
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                197,
-                565
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 44891,
-            "speed": 5.169697602889252
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                725,
-                122
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 45096,
-            "speed": 5.606112557550234
-        },
-        {
-            "shape": "circle",
-            "position": [
-                264,
-                289
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 45303,
-            "speed": 6.517088573560987
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                669,
-                141
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 45492,
-            "speed": 4.2970086298351555
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                37,
-                102
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 45691,
-            "speed": 4.227590816772648
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                615,
-                442
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 45898,
-            "speed": 6.552050999102325
-        },
-        {
-            "shape": "circle",
-            "position": [
-                491,
-                458
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 46122,
-            "speed": 6.4399068773168695
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                694,
-                157
-            ],
-            "direction": "left_to_right",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 46347,
-            "speed": 5.21371726185856
-        },
-        {
-            "shape": "oval",
-            "position": [
-                296,
-                18
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 46557,
-            "speed": 4.817074094370967
-        },
-        {
-            "shape": "circle",
-            "position": [
-                771,
-                438
-            ],
-            "direction": "left_to_right",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 46788,
-            "speed": 6.066952898485059
-        },
-        {
-            "shape": "oval",
-            "position": [
-                438,
-                222
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 47012,
-            "speed": 4.672211676635452
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                618,
-                285
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 47237,
-            "speed": 6.852088038013093
-        },
-        {
-            "shape": "rectangle",
             "position": [
                 614,
-                395
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 47474,
-            "speed": 6.40837706272063
-        },
-        {
-            "shape": "circle",
-            "position": [
-                638,
-                257
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 47688,
-            "speed": 6.581109859033173
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                372,
-                476
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 47940,
-            "speed": 6.1457970082591755
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                3,
-                247
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 48174,
-            "speed": 5.770514851677463
-        },
-        {
-            "shape": "oval",
-            "position": [
-                490,
-                420
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 48371,
-            "speed": 4.027577626700376
-        },
-        {
-            "shape": "oval",
-            "position": [
-                89,
-                165
+                344
             ],
             "direction": "center_to_outside",
             "color": [
@@ -1684,839 +1059,15 @@
                 238,
                 144
             ],
-            "spawn_time": 48588,
-            "speed": 4.78244888320287
+            "spawn_time": 37484,
+            "speed": 6.849872432757833,
+            "size": 60
         },
         {
             "shape": "circle",
             "position": [
-                296,
-                445
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 48812,
-            "speed": 6.956324713330861
-        },
-        {
-            "shape": "circle",
-            "position": [
-                630,
-                447
-            ],
-            "direction": "left_to_right",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 49045,
-            "speed": 4.287539488057892
-        },
-        {
-            "shape": "oval",
-            "position": [
-                117,
-                15
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 49273,
-            "speed": 5.032322389256636
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                769,
-                599
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 49497,
-            "speed": 5.354975049035534
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                550,
-                482
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 49731,
-            "speed": 4.318047544492288
-        },
-        {
-            "shape": "oval",
-            "position": [
-                228,
-                301
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 49964,
-            "speed": 4.031652817225514
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                676,
-                221
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 50197,
-            "speed": 6.549248301844777
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                145,
-                342
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 50435,
-            "speed": 4.468339184774697
-        },
-        {
-            "shape": "oval",
-            "position": [
-                345,
-                512
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 50667,
-            "speed": 6.3865524694226945
-        },
-        {
-            "shape": "oval",
-            "position": [
-                355,
-                472
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 50938,
-            "speed": 6.828403206769316
-        },
-        {
-            "shape": "oval",
-            "position": [
-                368,
-                491
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 51180,
-            "speed": 5.867074497803593
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                217,
-                159
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 51413,
-            "speed": 5.505339290581446
-        },
-        {
-            "shape": "circle",
-            "position": [
-                171,
-                579
-            ],
-            "direction": "left_to_right",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 51656,
-            "speed": 5.6117509230597085
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                221,
-                48
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 51890,
-            "speed": 5.934536851443135
-        },
-        {
-            "shape": "circle",
-            "position": [
-                680,
-                171
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 52153,
-            "speed": 6.100264881661259
-        },
-        {
-            "shape": "circle",
-            "position": [
-                49,
-                543
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 52411,
-            "speed": 5.221027787270294
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                797,
-                482
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 52620,
-            "speed": 6.526661265743115
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                228,
-                10
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 52889,
-            "speed": 6.406653260106127
-        },
-        {
-            "shape": "oval",
-            "position": [
-                208,
-                294
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 53131,
-            "speed": 4.242802961152514
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                800,
-                381
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 53395,
-            "speed": 5.621348198299455
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                610,
-                575
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 53637,
-            "speed": 6.793057015232641
-        },
-        {
-            "shape": "oval",
-            "position": [
-                71,
-                521
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 53871,
-            "speed": 4.56678137093573
-        },
-        {
-            "shape": "oval",
-            "position": [
-                162,
-                62
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 54095,
-            "speed": 6.4864835158960386
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                235,
-                318
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 54312,
-            "speed": 4.140291702185164
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                154,
-                300
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 54570,
-            "speed": 5.138886640537379
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                436,
-                559
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 54795,
-            "speed": 5.695603020598533
-        },
-        {
-            "shape": "oval",
-            "position": [
-                674,
-                226
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 55032,
-            "speed": 4.434567159899353
-        },
-        {
-            "shape": "oval",
-            "position": [
-                100,
-                44
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 55255,
-            "speed": 5.402235257223952
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                373,
-                57
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 55462,
-            "speed": 5.244309572630867
-        },
-        {
-            "shape": "oval",
-            "position": [
-                657,
-                340
-            ],
-            "direction": "left_to_right",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 55687,
-            "speed": 4.24012770136539
-        },
-        {
-            "shape": "oval",
-            "position": [
-                407,
-                505
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 55914,
-            "speed": 5.690809095921434
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                709,
-                8
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 56120,
-            "speed": 4.698579639039188
-        },
-        {
-            "shape": "circle",
-            "position": [
-                723,
-                96
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 56355,
-            "speed": 5.857097740833894
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                778,
-                460
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 56586,
-            "speed": 4.483260291852387
-        },
-        {
-            "shape": "oval",
-            "position": [
-                678,
-                520
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 56796,
-            "speed": 4.284063761902748
-        },
-        {
-            "shape": "circle",
-            "position": [
-                245,
-                130
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 57021,
-            "speed": 4.863501128940763
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                263,
-                121
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 57272,
-            "speed": 5.0175931857071445
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                626,
-                147
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 57486,
-            "speed": 6.347376123025317
-        },
-        {
-            "shape": "circle",
-            "position": [
-                786,
-                212
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 57704,
-            "speed": 4.780095083916062
-        },
-        {
-            "shape": "oval",
-            "position": [
-                779,
-                552
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 57955,
-            "speed": 6.248872967039127
-        },
-        {
-            "shape": "circle",
-            "position": [
-                463,
-                206
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 58190,
-            "speed": 4.765520138584711
-        },
-        {
-            "shape": "circle",
-            "position": [
-                498,
-                476
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 58451,
-            "speed": 5.1437484091161405
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                274,
-                334
-            ],
-            "direction": "left_to_right",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 58683,
-            "speed": 6.588187916654138
-        },
-        {
-            "shape": "circle",
-            "position": [
-                149,
-                505
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 58937,
-            "speed": 4.989131729201258
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                483,
-                347
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 59188,
-            "speed": 4.962282389844216
-        },
-        {
-            "shape": "circle",
-            "position": [
-                280,
-                340
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 59439,
-            "speed": 4.701548329662838
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                310,
-                287
-            ],
-            "direction": "left_to_right",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 59690,
-            "speed": 6.882208176328217
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                465,
-                200
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 59934,
-            "speed": 5.321396829503831
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                95,
-                116
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 60178,
-            "speed": 6.180032896179853
-        },
-        {
-            "shape": "circle",
-            "position": [
-                574,
-                528
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 60403,
-            "speed": 5.916929872287316
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                680,
-                140
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 60655,
-            "speed": 6.853908282006959
-        },
-        {
-            "shape": "oval",
-            "position": [
-                760,
-                133
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 60898,
-            "speed": 6.669386794995475
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                380,
-                226
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 61141,
-            "speed": 4.355330182010993
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                759,
-                190
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 61365,
-            "speed": 4.7500003118314735
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                664,
-                341
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 61643,
-            "speed": 6.6743226119832215
-        },
-        {
-            "shape": "circle",
-            "position": [
-                324,
-                130
+                29,
+                176
             ],
             "direction": "center_to_outside",
             "color": [
@@ -2524,973 +1075,14 @@
                 255,
                 224
             ],
-            "spawn_time": 61967,
-            "speed": 5.441059172778185
-        },
-        {
-            "shape": "oval",
-            "position": [
-                581,
-                175
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 62185,
-            "speed": 6.515225807358439
+            "spawn_time": 37772,
+            "speed": 4.113873807613889,
+            "size": 76
         },
         {
             "shape": "custom_shape",
-            "position": [
-                90,
-                199
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 62427,
-            "speed": 5.420407807488455
-        },
-        {
-            "shape": "oval",
-            "position": [
-                62,
-                15
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 62670,
-            "speed": 5.05642460900695
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                787,
-                410
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 63201,
-            "speed": 6.926636773975856
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                739,
-                39
-            ],
-            "direction": "left_to_right",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 63740,
-            "speed": 4.602449674074075
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                349,
-                20
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 64379,
-            "speed": 5.427639288779252
-        },
-        {
-            "shape": "oval",
-            "position": [
-                793,
-                594
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 64929,
-            "speed": 5.819193521990812
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                700,
-                562
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 65316,
-            "speed": 5.514786590324371
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                424,
-                207
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 65658,
-            "speed": 5.820806872729124
-        },
-        {
-            "shape": "oval",
-            "position": [
-                306,
-                587
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 65964,
-            "speed": 4.275034517673709
-        },
-        {
-            "shape": "circle",
-            "position": [
-                13,
-                398
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 66260,
-            "speed": 6.005014688209703
-        },
-        {
-            "shape": "circle",
-            "position": [
-                271,
-                22
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 66557,
-            "speed": 6.54863611738355
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                32,
-                324
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 66854,
-            "speed": 4.033371567797794
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                66,
-                548
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 67142,
-            "speed": 4.928178873011329
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                67,
-                89
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 67468,
-            "speed": 6.828993448506966
-        },
-        {
-            "shape": "oval",
             "position": [
                 598,
-                359
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 67726,
-            "speed": 6.755543915670382
-        },
-        {
-            "shape": "oval",
-            "position": [
-                296,
-                283
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 68035,
-            "speed": 4.492504617294725
-        },
-        {
-            "shape": "circle",
-            "position": [
-                552,
-                242
-            ],
-            "direction": "left_to_right",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 68654,
-            "speed": 6.51599804994771
-        },
-        {
-            "shape": "oval",
-            "position": [
-                738,
-                209
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 68958,
-            "speed": 6.3764410579193225
-        },
-        {
-            "shape": "oval",
-            "position": [
-                31,
-                111
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 69258,
-            "speed": 5.92711739731083
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                531,
-                39
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 69556,
-            "speed": 5.8074546575740325
-        },
-        {
-            "shape": "oval",
-            "position": [
-                373,
-                494
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 70012,
-            "speed": 5.225634581070755
-        },
-        {
-            "shape": "circle",
-            "position": [
-                708,
-                44
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 70660,
-            "speed": 6.97356176113632
-        },
-        {
-            "shape": "circle",
-            "position": [
-                613,
-                120
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 71281,
-            "speed": 6.0367916801506025
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                229,
-                370
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 71867,
-            "speed": 4.653162714542599
-        },
-        {
-            "shape": "oval",
-            "position": [
-                758,
-                170
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 72452,
-            "speed": 6.005610915579522
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                220,
-                120
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 73029,
-            "speed": 6.999869679224652
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                742,
-                448
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 73612,
-            "speed": 6.156838597940244
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                510,
-                16
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 74286,
-            "speed": 6.716303457924475
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                302,
-                583
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 74873,
-            "speed": 6.310581453547622
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                247,
-                460
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 75484,
-            "speed": 5.191299898508927
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                445,
-                569
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 76005,
-            "speed": 4.954489604845179
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                113,
-                549
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 76370,
-            "speed": 6.942653856385526
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                722,
-                340
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 76946,
-            "speed": 5.766403096083005
-        },
-        {
-            "shape": "circle",
-            "position": [
-                12,
-                2
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 77539,
-            "speed": 5.781877219210376
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                521,
-                307
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 78188,
-            "speed": 4.4498776821165364
-        },
-        {
-            "shape": "oval",
-            "position": [
-                307,
-                262
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 78727,
-            "speed": 6.52460765739445
-        },
-        {
-            "shape": "oval",
-            "position": [
-                16,
-                578
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 79096,
-            "speed": 4.769010871580273
-        },
-        {
-            "shape": "oval",
-            "position": [
-                544,
-                474
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 79331,
-            "speed": 4.973044057677239
-        },
-        {
-            "shape": "circle",
-            "position": [
-                305,
-                442
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 79808,
-            "speed": 5.248742978660678
-        },
-        {
-            "shape": "circle",
-            "position": [
-                738,
-                143
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 80419,
-            "speed": 4.004965327890142
-        },
-        {
-            "shape": "circle",
-            "position": [
-                237,
-                160
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 81050,
-            "speed": 4.894879864903853
-        },
-        {
-            "shape": "circle",
-            "position": [
-                270,
-                411
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 81742,
-            "speed": 4.805994307914978
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                311,
-                137
-            ],
-            "direction": "left_to_right",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 82363,
-            "speed": 4.896096791982589
-        },
-        {
-            "shape": "circle",
-            "position": [
-                517,
-                165
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 82814,
-            "speed": 4.386254213093409
-        },
-        {
-            "shape": "oval",
-            "position": [
-                399,
-                183
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 83110,
-            "speed": 5.2205345124414055
-        },
-        {
-            "shape": "circle",
-            "position": [
-                15,
-                218
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 83387,
-            "speed": 4.6529133863738465
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                87,
-                402
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 83712,
-            "speed": 6.14335673901233
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                21,
-                198
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 83955,
-            "speed": 4.506162908264144
-        },
-        {
-            "shape": "circle",
-            "position": [
-                418,
-                569
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 84296,
-            "speed": 6.391933515062394
-        },
-        {
-            "shape": "oval",
-            "position": [
-                231,
-                422
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 84523,
-            "speed": 6.228634552125982
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                309,
-                244
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 84847,
-            "speed": 6.305568629782872
-        },
-        {
-            "shape": "oval",
-            "position": [
-                154,
-                375
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 85126,
-            "speed": 4.611502588370642
-        },
-        {
-            "shape": "circle",
-            "position": [
-                528,
-                426
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 85468,
-            "speed": 5.667507478261905
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                235,
-                441
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 85728,
-            "speed": 5.046622745088646
-        },
-        {
-            "shape": "circle",
-            "position": [
-                725,
-                61
-            ],
-            "direction": "left_to_right",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 86061,
-            "speed": 6.539452095640398
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                590,
-                290
-            ],
-            "direction": "left_to_right",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 86322,
-            "speed": 6.836516201639248
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                274,
-                141
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 86656,
-            "speed": 6.901519414872522
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                264,
-                404
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 86952,
-            "speed": 4.405774824475223
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                319,
-                263
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 87249,
-            "speed": 4.175376226963231
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                109,
-                137
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 87528,
-            "speed": 5.759958074072202
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                674,
-                68
-            ],
-            "direction": "left_to_right",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 88464,
-            "speed": 5.586663510305884
-        },
-        {
-            "shape": "oval",
-            "position": [
-                726,
-                288
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                255,
-                224
-            ],
-            "spawn_time": 88705,
-            "speed": 5.5204733547464
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                293,
-                412
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 89022,
-            "speed": 4.754336548912187
-        },
-        {
-            "shape": "circle",
-            "position": [
-                466,
                 181
             ],
             "direction": "top_to_bottom",
@@ -3499,14 +1091,1055 @@
                 216,
                 230
             ],
-            "spawn_time": 89344,
-            "speed": 5.416744536006817
+            "spawn_time": 38070,
+            "speed": 5.07682456285569,
+            "size": 85
         },
         {
             "shape": "circle",
             "position": [
-                613,
-                312
+                139,
+                46
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 38356,
+            "speed": 4.508447720807924,
+            "size": 91
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                637,
+                179
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                222,
+                173
+            ],
+            "spawn_time": 38672,
+            "speed": 4.067088305096489,
+            "size": 89
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                200,
+                185
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 38970,
+            "speed": 6.941277200405741,
+            "size": 85
+        },
+        {
+            "shape": "oval",
+            "position": [
+                101,
+                276
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 39278,
+            "speed": 6.9419382883896805,
+            "size": 69
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                68,
+                202
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 39563,
+            "speed": 6.59079280828724,
+            "size": 66
+        },
+        {
+            "shape": "circle",
+            "position": [
+                31,
+                284
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 39860,
+            "speed": 4.124496310241811,
+            "size": 70
+        },
+        {
+            "shape": "circle",
+            "position": [
+                542,
+                67
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 40146,
+            "speed": 4.295209382331947,
+            "size": 71
+        },
+        {
+            "shape": "oval",
+            "position": [
+                274,
+                213
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 40435,
+            "speed": 4.677112123036407,
+            "size": 84
+        },
+        {
+            "shape": "circle",
+            "position": [
+                734,
+                310
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 40731,
+            "speed": 5.389777524713117,
+            "size": 72
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                34,
+                519
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 41046,
+            "speed": 4.3967725435529035,
+            "size": 85
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                789,
+                319
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 41281,
+            "speed": 6.1383451084685605,
+            "size": 77
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                325,
+                115
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                222,
+                173
+            ],
+            "spawn_time": 41471,
+            "speed": 4.053554452431509,
+            "size": 94
+        },
+        {
+            "shape": "circle",
+            "position": [
+                677,
+                305
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 41661,
+            "speed": 4.5523548558279385,
+            "size": 76
+        },
+        {
+            "shape": "oval",
+            "position": [
+                85,
+                64
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 41838,
+            "speed": 5.077317067792913,
+            "size": 83
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                538,
+                270
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                222,
+                173
+            ],
+            "spawn_time": 42028,
+            "speed": 6.348717102075753,
+            "size": 65
+        },
+        {
+            "shape": "circle",
+            "position": [
+                702,
+                159
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 42236,
+            "speed": 5.244835122161705,
+            "size": 96
+        },
+        {
+            "shape": "oval",
+            "position": [
+                712,
+                174
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 42603,
+            "speed": 4.809161784605624,
+            "size": 59
+        },
+        {
+            "shape": "circle",
+            "position": [
+                428,
+                49
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 42830,
+            "speed": 5.612662233751326,
+            "size": 90
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                712,
+                226
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 43155,
+            "speed": 4.319926196099033,
+            "size": 58
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                23,
+                524
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 43423,
+            "speed": 5.4961538460924135,
+            "size": 98
+        },
+        {
+            "shape": "oval",
+            "position": [
+                202,
+                84
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 43621,
+            "speed": 5.643741827875419,
+            "size": 58
+        },
+        {
+            "shape": "oval",
+            "position": [
+                240,
+                26
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 43820,
+            "speed": 4.243901807387782,
+            "size": 50
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                389,
+                526
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 44007,
+            "speed": 5.273612784222839,
+            "size": 65
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                565,
+                345
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                222,
+                173
+            ],
+            "spawn_time": 44214,
+            "speed": 6.300504167760572,
+            "size": 70
+        },
+        {
+            "shape": "circle",
+            "position": [
+                241,
+                134
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 44439,
+            "speed": 4.8942681714201,
+            "size": 75
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                517,
+                532
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 44683,
+            "speed": 5.922238781760894,
+            "size": 83
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                483,
+                529
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 44891,
+            "speed": 5.4310579062625415,
+            "size": 64
+        },
+        {
+            "shape": "circle",
+            "position": [
+                652,
+                304
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 45096,
+            "speed": 5.630248553504579,
+            "size": 78
+        },
+        {
+            "shape": "oval",
+            "position": [
+                128,
+                69
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 45303,
+            "speed": 6.108602827287339,
+            "size": 68
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                598,
+                500
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 45492,
+            "speed": 5.26431622666664,
+            "size": 99
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                474,
+                36
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                222,
+                173
+            ],
+            "spawn_time": 45691,
+            "speed": 6.46139360037031,
+            "size": 56
+        },
+        {
+            "shape": "oval",
+            "position": [
+                683,
+                426
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 45898,
+            "speed": 5.853650212663522,
+            "size": 70
+        },
+        {
+            "shape": "oval",
+            "position": [
+                522,
+                186
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 46122,
+            "speed": 5.406574458222851,
+            "size": 63
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                285,
+                125
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 46347,
+            "speed": 5.227645590459163,
+            "size": 65
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                249,
+                482
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                222,
+                173
+            ],
+            "spawn_time": 46557,
+            "speed": 6.258313405704568,
+            "size": 78
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                125,
+                364
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 46788,
+            "speed": 5.6407895538044,
+            "size": 96
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                84,
+                112
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 47012,
+            "speed": 6.142401849528677,
+            "size": 54
+        },
+        {
+            "shape": "oval",
+            "position": [
+                102,
+                6
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 47237,
+            "speed": 6.107716136093399,
+            "size": 91
+        },
+        {
+            "shape": "oval",
+            "position": [
+                753,
+                114
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 47474,
+            "speed": 6.66957697995233,
+            "size": 76
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                785,
+                510
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 47688,
+            "speed": 6.876596931688577,
+            "size": 64
+        },
+        {
+            "shape": "circle",
+            "position": [
+                513,
+                219
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                222,
+                173
+            ],
+            "spawn_time": 47940,
+            "speed": 5.66671263147691,
+            "size": 68
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                66,
+                541
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 48174,
+            "speed": 5.383094862006408,
+            "size": 92
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                559,
+                204
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 48371,
+            "speed": 5.635355383440887,
+            "size": 55
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                86,
+                484
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 48588,
+            "speed": 6.189870823267298,
+            "size": 84
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                344,
+                296
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 48812,
+            "speed": 6.2366963330773295,
+            "size": 77
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                161,
+                253
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 49045,
+            "speed": 4.351965866375944,
+            "size": 63
+        },
+        {
+            "shape": "oval",
+            "position": [
+                203,
+                538
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 49273,
+            "speed": 5.215822693696966,
+            "size": 51
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                45,
+                451
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 49497,
+            "speed": 5.25175082069243,
+            "size": 52
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                728,
+                506
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 49731,
+            "speed": 6.842702032198295,
+            "size": 72
+        },
+        {
+            "shape": "circle",
+            "position": [
+                288,
+                270
+            ],
+            "direction": "left_to_right",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 49964,
+            "speed": 4.5394011647462875,
+            "size": 78
+        },
+        {
+            "shape": "oval",
+            "position": [
+                440,
+                480
+            ],
+            "direction": "left_to_right",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 50197,
+            "speed": 5.113892400275811,
+            "size": 83
+        },
+        {
+            "shape": "circle",
+            "position": [
+                205,
+                9
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                222,
+                173
+            ],
+            "spawn_time": 50435,
+            "speed": 4.65018871106522,
+            "size": 94
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                703,
+                284
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 50667,
+            "speed": 6.986935765599498,
+            "size": 81
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                207,
+                592
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                222,
+                173
+            ],
+            "spawn_time": 50938,
+            "speed": 5.694557453228562,
+            "size": 87
+        },
+        {
+            "shape": "oval",
+            "position": [
+                535,
+                161
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 51180,
+            "speed": 5.708449166952677,
+            "size": 59
+        },
+        {
+            "shape": "circle",
+            "position": [
+                74,
+                116
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 51413,
+            "speed": 5.924957545831392,
+            "size": 92
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                114,
+                137
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 51656,
+            "speed": 6.498249954513547,
+            "size": 56
+        },
+        {
+            "shape": "oval",
+            "position": [
+                610,
+                76
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 51890,
+            "speed": 4.115231767669778,
+            "size": 81
+        },
+        {
+            "shape": "circle",
+            "position": [
+                7,
+                233
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 52153,
+            "speed": 4.625008474361006,
+            "size": 100
+        },
+        {
+            "shape": "circle",
+            "position": [
+                744,
+                215
+            ],
+            "direction": "left_to_right",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 52411,
+            "speed": 6.3981319296572225,
+            "size": 87
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                676,
+                226
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 52620,
+            "speed": 5.760820854281045,
+            "size": 74
+        },
+        {
+            "shape": "circle",
+            "position": [
+                155,
+                295
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 52889,
+            "speed": 4.460755496596537,
+            "size": 59
+        },
+        {
+            "shape": "circle",
+            "position": [
+                98,
+                25
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 53131,
+            "speed": 5.377661624070558,
+            "size": 71
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                548,
+                491
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                222,
+                173
+            ],
+            "spawn_time": 53395,
+            "speed": 4.28830106868946,
+            "size": 62
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                756,
+                74
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 53637,
+            "speed": 5.127784927532696,
+            "size": 94
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                42,
+                473
             ],
             "direction": "edges_to_center",
             "color": [
@@ -3514,164 +2147,1663 @@
                 222,
                 173
             ],
-            "spawn_time": 89695,
-            "speed": 6.218376713243022
+            "spawn_time": 53871,
+            "speed": 6.098197171573178,
+            "size": 53
+        },
+        {
+            "shape": "circle",
+            "position": [
+                226,
+                130
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 54095,
+            "speed": 4.097244067037112,
+            "size": 79
+        },
+        {
+            "shape": "oval",
+            "position": [
+                791,
+                122
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 54312,
+            "speed": 4.158481392198427,
+            "size": 74
         },
         {
             "shape": "custom_shape",
             "position": [
-                716,
-                132
+                588,
+                351
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 54570,
+            "speed": 5.159570144925189,
+            "size": 95
+        },
+        {
+            "shape": "circle",
+            "position": [
+                244,
+                429
             ],
             "direction": "top_to_bottom",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 54795,
+            "speed": 5.449111018536797,
+            "size": 67
+        },
+        {
+            "shape": "oval",
+            "position": [
+                671,
+                239
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 55032,
+            "speed": 4.329755476832794,
+            "size": 73
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                162,
+                346
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 55255,
+            "speed": 5.988641002569364,
+            "size": 84
+        },
+        {
+            "shape": "oval",
+            "position": [
+                95,
+                6
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 55462,
+            "speed": 5.275014064826086,
+            "size": 61
+        },
+        {
+            "shape": "circle",
+            "position": [
+                436,
+                286
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 55687,
+            "speed": 6.310283081459241,
+            "size": 71
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                434,
+                398
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 55914,
+            "speed": 4.133791436581983,
+            "size": 69
+        },
+        {
+            "shape": "oval",
+            "position": [
+                82,
+                113
+            ],
+            "direction": "left_to_right",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 56120,
+            "speed": 4.93861451900948,
+            "size": 66
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                132,
+                594
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 56355,
+            "speed": 4.279286875462564,
+            "size": 94
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                317,
+                577
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 56586,
+            "speed": 5.952048625353463,
+            "size": 80
+        },
+        {
+            "shape": "oval",
+            "position": [
+                584,
+                361
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 56796,
+            "speed": 5.80427531212517,
+            "size": 81
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                43,
+                366
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 57021,
+            "speed": 4.9882698253723925,
+            "size": 59
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                704,
+                503
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 57272,
+            "speed": 4.336749318091949,
+            "size": 87
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                698,
+                513
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 57486,
+            "speed": 5.7695595053576785,
+            "size": 77
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                758,
+                479
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 57704,
+            "speed": 6.488214855321278,
+            "size": 65
+        },
+        {
+            "shape": "oval",
+            "position": [
+                797,
+                365
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 57955,
+            "speed": 5.136141887483806,
+            "size": 96
+        },
+        {
+            "shape": "oval",
+            "position": [
+                339,
+                325
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 58190,
+            "speed": 5.602479211977729,
+            "size": 84
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                196,
+                482
+            ],
+            "direction": "left_to_right",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 58451,
+            "speed": 5.929575181473455,
+            "size": 65
+        },
+        {
+            "shape": "circle",
+            "position": [
+                116,
+                61
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 58683,
+            "speed": 4.468945802942136,
+            "size": 91
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                125,
+                530
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 58937,
+            "speed": 5.676998551092928,
+            "size": 83
+        },
+        {
+            "shape": "circle",
+            "position": [
+                250,
+                511
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 59188,
+            "speed": 5.709453280053063,
+            "size": 85
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                30,
+                492
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 59439,
+            "speed": 5.39720363880445,
+            "size": 74
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                602,
+                389
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 59690,
+            "speed": 5.597660773756857,
+            "size": 100
+        },
+        {
+            "shape": "circle",
+            "position": [
+                363,
+                502
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 59934,
+            "speed": 6.494938996743492,
+            "size": 74
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                283,
+                342
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 60178,
+            "speed": 4.445508290513894,
+            "size": 87
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                650,
+                307
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 60403,
+            "speed": 4.649278894444379,
+            "size": 60
+        },
+        {
+            "shape": "oval",
+            "position": [
+                304,
+                127
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 60655,
+            "speed": 5.8059782712982475,
+            "size": 52
+        },
+        {
+            "shape": "oval",
+            "position": [
+                515,
+                171
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 60898,
+            "speed": 5.839763424826417,
+            "size": 54
+        },
+        {
+            "shape": "oval",
+            "position": [
+                395,
+                164
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 61141,
+            "speed": 5.795583181621337,
+            "size": 64
+        },
+        {
+            "shape": "oval",
+            "position": [
+                87,
+                487
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 61365,
+            "speed": 6.502421052665348,
+            "size": 91
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                315,
+                568
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 61643,
+            "speed": 4.739771965422294,
+            "size": 54
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                336,
+                140
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 61967,
+            "speed": 5.33346015078567,
+            "size": 92
+        },
+        {
+            "shape": "circle",
+            "position": [
+                209,
+                306
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 62185,
+            "speed": 6.6171024283628235,
+            "size": 98
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                215,
+                461
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 62427,
+            "speed": 4.906866437694025,
+            "size": 75
+        },
+        {
+            "shape": "circle",
+            "position": [
+                32,
+                460
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 62670,
+            "speed": 5.743006455695049,
+            "size": 68
+        },
+        {
+            "shape": "oval",
+            "position": [
+                449,
+                408
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 63201,
+            "speed": 5.447137813174137,
+            "size": 84
+        },
+        {
+            "shape": "oval",
+            "position": [
+                706,
+                72
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 63740,
+            "speed": 5.658532755659865,
+            "size": 84
+        },
+        {
+            "shape": "circle",
+            "position": [
+                723,
+                561
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 64379,
+            "speed": 5.451935815322801,
+            "size": 90
+        },
+        {
+            "shape": "circle",
+            "position": [
+                216,
+                318
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 64929,
+            "speed": 5.265624707993144,
+            "size": 54
+        },
+        {
+            "shape": "oval",
+            "position": [
+                79,
+                283
+            ],
+            "direction": "center_to_outside",
             "color": [
                 255,
                 222,
                 173
             ],
-            "spawn_time": 89968,
-            "speed": 4.817352907554786
+            "spawn_time": 65316,
+            "speed": 4.263808564192443,
+            "size": 86
+        },
+        {
+            "shape": "circle",
+            "position": [
+                7,
+                424
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 65658,
+            "speed": 5.32262719877483,
+            "size": 63
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                185,
+                183
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 65964,
+            "speed": 5.849420779208872,
+            "size": 73
         },
         {
             "shape": "custom_shape",
             "position": [
-                202,
-                285
+                268,
+                344
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 66260,
+            "speed": 5.953736989986864,
+            "size": 68
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                766,
+                405
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                222,
+                173
+            ],
+            "spawn_time": 66557,
+            "speed": 5.119287388146242,
+            "size": 57
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                372,
+                352
             ],
             "direction": "top_to_bottom",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 66854,
+            "speed": 4.82230600964324,
+            "size": 80
+        },
+        {
+            "shape": "circle",
+            "position": [
+                425,
+                262
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 67142,
+            "speed": 5.082986239652838,
+            "size": 74
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                467,
+                536
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 67468,
+            "speed": 6.095258703254242,
+            "size": 70
+        },
+        {
+            "shape": "circle",
+            "position": [
+                250,
+                117
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 67726,
+            "speed": 5.8963060835700745,
+            "size": 62
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                795,
+                406
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 68035,
+            "speed": 4.386647038673462,
+            "size": 89
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                777,
+                96
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 68654,
+            "speed": 6.048433721557574,
+            "size": 61
+        },
+        {
+            "shape": "oval",
+            "position": [
+                771,
+                122
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 68958,
+            "speed": 5.161663921488619,
+            "size": 76
+        },
+        {
+            "shape": "circle",
+            "position": [
+                668,
+                141
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 69258,
+            "speed": 6.396254493470376,
+            "size": 81
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                404,
+                132
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 69556,
+            "speed": 6.78057740086059,
+            "size": 80
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                430,
+                1
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 70012,
+            "speed": 4.310026567785452,
+            "size": 76
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                219,
+                493
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 70660,
+            "speed": 5.133601423904704,
+            "size": 54
+        },
+        {
+            "shape": "circle",
+            "position": [
+                376,
+                304
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 71281,
+            "speed": 4.483975770656054,
+            "size": 93
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                99,
+                579
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 71867,
+            "speed": 6.573370153127751,
+            "size": 64
+        },
+        {
+            "shape": "circle",
+            "position": [
+                633,
+                100
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 72452,
+            "speed": 4.960401099696073,
+            "size": 97
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                148,
+                401
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 73029,
+            "speed": 6.192112380511283,
+            "size": 61
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                760,
+                200
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 73612,
+            "speed": 6.187581173439197,
+            "size": 100
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                342,
+                495
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 74286,
+            "speed": 4.108669143854582,
+            "size": 55
+        },
+        {
+            "shape": "circle",
+            "position": [
+                561,
+                301
+            ],
+            "direction": "left_to_right",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 74873,
+            "speed": 6.749628447088794,
+            "size": 58
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                321,
+                588
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 75484,
+            "speed": 4.85273537818885,
+            "size": 61
+        },
+        {
+            "shape": "oval",
+            "position": [
+                457,
+                533
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 76005,
+            "speed": 6.773824590694356,
+            "size": 60
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                685,
+                47
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 76370,
+            "speed": 4.136803214887376,
+            "size": 99
+        },
+        {
+            "shape": "oval",
+            "position": [
+                390,
+                529
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 76946,
+            "speed": 5.366515387832916,
+            "size": 60
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                225,
+                368
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 77539,
+            "speed": 5.535353160228295,
+            "size": 64
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                42,
+                442
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 78188,
+            "speed": 6.820355752858572,
+            "size": 62
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                172,
+                583
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 78727,
+            "speed": 5.116594380273341,
+            "size": 72
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                699,
+                368
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 79096,
+            "speed": 5.888248528221442,
+            "size": 52
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                297,
+                350
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 79331,
+            "speed": 4.600246669105699,
+            "size": 83
+        },
+        {
+            "shape": "oval",
+            "position": [
+                227,
+                15
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 79808,
+            "speed": 5.953167140538255,
+            "size": 84
+        },
+        {
+            "shape": "oval",
+            "position": [
+                695,
+                250
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                222,
+                173
+            ],
+            "spawn_time": 80419,
+            "speed": 4.705679229379301,
+            "size": 51
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                353,
+                61
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 81050,
+            "speed": 5.113336127147512,
+            "size": 89
+        },
+        {
+            "shape": "oval",
+            "position": [
+                701,
+                523
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 81742,
+            "speed": 6.941802716286489,
+            "size": 74
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                67,
+                530
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 82363,
+            "speed": 5.762877900757168,
+            "size": 65
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                417,
+                499
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 82814,
+            "speed": 4.216142605330681,
+            "size": 97
+        },
+        {
+            "shape": "oval",
+            "position": [
+                187,
+                37
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 83110,
+            "speed": 4.333112702848002,
+            "size": 75
+        },
+        {
+            "shape": "oval",
+            "position": [
+                599,
+                2
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 83387,
+            "speed": 4.0043716838704,
+            "size": 77
+        },
+        {
+            "shape": "oval",
+            "position": [
+                87,
+                100
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 83712,
+            "speed": 4.576659900800144,
+            "size": 66
+        },
+        {
+            "shape": "oval",
+            "position": [
+                432,
+                542
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 83955,
+            "speed": 4.824065709773691,
+            "size": 100
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                469,
+                61
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 84296,
+            "speed": 4.085080939400658,
+            "size": 74
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                402,
+                490
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 84523,
+            "speed": 6.186092629500683,
+            "size": 68
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                88,
+                248
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 84847,
+            "speed": 4.325975413501596,
+            "size": 73
+        },
+        {
+            "shape": "oval",
+            "position": [
+                349,
+                88
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 85126,
+            "speed": 6.4028755733920795,
+            "size": 91
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                503,
+                529
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 85468,
+            "speed": 4.00785344652186,
+            "size": 66
+        },
+        {
+            "shape": "circle",
+            "position": [
+                507,
+                235
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 85728,
+            "speed": 4.641871837596395,
+            "size": 87
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                577,
+                183
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 86061,
+            "speed": 5.583344696121592,
+            "size": 92
+        },
+        {
+            "shape": "oval",
+            "position": [
+                656,
+                189
+            ],
+            "direction": "left_to_right",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 86322,
+            "speed": 5.664115614947577,
+            "size": 92
+        },
+        {
+            "shape": "oval",
+            "position": [
+                723,
+                198
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 86656,
+            "speed": 5.577366535444639,
+            "size": 67
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                646,
+                118
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 86952,
+            "speed": 5.100615789489696,
+            "size": 92
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                180,
+                132
+            ],
+            "direction": "left_to_right",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 87249,
+            "speed": 6.426164667202778,
+            "size": 90
+        },
+        {
+            "shape": "oval",
+            "position": [
+                253,
+                526
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 87528,
+            "speed": 5.629077696948579,
+            "size": 95
+        },
+        {
+            "shape": "circle",
+            "position": [
+                752,
+                339
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 88464,
+            "speed": 6.199234632131565,
+            "size": 71
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                671,
+                104
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 88705,
+            "speed": 6.217856975024214,
+            "size": 58
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                158,
+                298
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 89022,
+            "speed": 5.089268145912007,
+            "size": 74
+        },
+        {
+            "shape": "circle",
+            "position": [
+                38,
+                326
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 89344,
+            "speed": 5.459348272028279,
+            "size": 83
+        },
+        {
+            "shape": "circle",
+            "position": [
+                742,
+                559
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 89695,
+            "speed": 5.119998084457537,
+            "size": 87
+        },
+        {
+            "shape": "circle",
+            "position": [
+                5,
+                130
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 89968,
+            "speed": 4.7587744209713065,
+            "size": 55
+        },
+        {
+            "shape": "circle",
+            "position": [
+                634,
+                120
+            ],
+            "direction": "edges_to_center",
             "color": [
                 255,
                 228,
                 225
             ],
             "spawn_time": 90281,
-            "speed": 5.928875047182756
+            "speed": 6.557149872160486,
+            "size": 89
         },
         {
             "shape": "oval",
             "position": [
-                501,
-                297
+                55,
+                5
             ],
             "direction": "center_to_outside",
             "color": [
                 255,
-                182,
-                193
+                218,
+                185
             ],
             "spawn_time": 90551,
-            "speed": 4.871936945231931
+            "speed": 5.120991024953402,
+            "size": 70
         },
         {
             "shape": "rectangle",
             "position": [
-                355,
-                81
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                182,
-                193
-            ],
-            "spawn_time": 90840,
-            "speed": 5.832674137889233
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                700,
-                194
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 91143,
-            "speed": 6.538981857848593
-        },
-        {
-            "shape": "circle",
-            "position": [
-                314,
-                126
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 91560,
-            "speed": 4.028065521487547
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                456,
-                393
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                255,
-                228,
-                225
-            ],
-            "spawn_time": 91775,
-            "speed": 4.435184427369593
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                221,
-                119
-            ],
-            "direction": "left_to_right",
-            "color": [
-                255,
-                218,
-                185
-            ],
-            "spawn_time": 92056,
-            "speed": 6.193920318018138
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                564,
-                189
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 92351,
-            "speed": 5.674567770419793
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                346,
-                517
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                144,
-                238,
-                144
-            ],
-            "spawn_time": 92640,
-            "speed": 4.333936318676113
-        },
-        {
-            "shape": "oval",
-            "position": [
-                288,
-                247
+                710,
+                277
             ],
             "direction": "top_to_bottom",
             "color": [
@@ -3679,44 +3811,175 @@
                 222,
                 173
             ],
-            "spawn_time": 92953,
-            "speed": 5.071656294186088
+            "spawn_time": 90840,
+            "speed": 5.85323211530878,
+            "size": 79
+        },
+        {
+            "shape": "circle",
+            "position": [
+                17,
+                339
+            ],
+            "direction": "left_to_right",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 91143,
+            "speed": 4.796594481273157,
+            "size": 63
+        },
+        {
+            "shape": "oval",
+            "position": [
+                91,
+                146
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 91560,
+            "speed": 4.363890217952634,
+            "size": 73
+        },
+        {
+            "shape": "circle",
+            "position": [
+                398,
+                36
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 91775,
+            "speed": 4.338521596383611,
+            "size": 54
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                440,
+                26
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                173,
+                216,
+                230
+            ],
+            "spawn_time": 92056,
+            "speed": 5.66318676467369,
+            "size": 87
         },
         {
             "shape": "custom_shape",
             "position": [
-                39,
-                242
+                768,
+                501
             ],
-            "direction": "top_to_bottom",
+            "direction": "center_to_outside",
             "color": [
                 255,
                 255,
                 224
             ],
-            "spawn_time": 93260,
-            "speed": 5.454272367861969
+            "spawn_time": 92351,
+            "speed": 5.147598073413188,
+            "size": 99
         },
         {
-            "shape": "oval",
+            "shape": "custom_shape",
             "position": [
-                145,
-                338
+                688,
+                198
             ],
             "direction": "top_to_bottom",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 92640,
+            "speed": 4.816629586231401,
+            "size": 70
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                58,
+                56
+            ],
+            "direction": "left_to_right",
+            "color": [
+                144,
+                238,
+                144
+            ],
+            "spawn_time": 92953,
+            "speed": 6.456734519146439,
+            "size": 96
+        },
+        {
+            "shape": "circle",
+            "position": [
+                448,
+                307
+            ],
+            "direction": "center_to_outside",
+            "color": [
+                255,
+                218,
+                185
+            ],
+            "spawn_time": 93260,
+            "speed": 5.561119429285798,
+            "size": 52
+        },
+        {
+            "shape": "circle",
+            "position": [
+                87,
+                432
+            ],
+            "direction": "left_to_right",
             "color": [
                 255,
                 218,
                 185
             ],
             "spawn_time": 93557,
-            "speed": 4.519810474307359
+            "speed": 6.145516038275987,
+            "size": 76
         },
         {
-            "shape": "rectangle",
+            "shape": "oval",
             "position": [
-                506,
-                90
+                204,
+                145
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                222,
+                173
+            ],
+            "spawn_time": 93836,
+            "speed": 6.577072079378693,
+            "size": 93
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                732,
+                338
             ],
             "direction": "top_to_bottom",
             "color": [
@@ -3724,29 +3987,31 @@
                 255,
                 224
             ],
-            "spawn_time": 93836,
-            "speed": 5.003424979085602
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                704,
-                509
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                173,
-                216,
-                230
-            ],
             "spawn_time": 94150,
-            "speed": 6.374820147424433
+            "speed": 5.1031589454196045,
+            "size": 76
         },
         {
             "shape": "custom_shape",
             "position": [
-                313,
-                41
+                588,
+                267
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                240,
+                245
+            ],
+            "spawn_time": 94455,
+            "speed": 6.573184205340722,
+            "size": 63
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                420,
+                137
             ],
             "direction": "top_to_bottom",
             "color": [
@@ -3754,44 +4019,15 @@
                 218,
                 185
             ],
-            "spawn_time": 94455,
-            "speed": 5.804735869007532
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                281,
-                237
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                240,
-                245
-            ],
             "spawn_time": 94753,
-            "speed": 4.7577909791980515
+            "speed": 5.5912185496392475,
+            "size": 92
         },
         {
-            "shape": "oval",
+            "shape": "circle",
             "position": [
-                61,
-                562
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                240,
-                245
-            ],
-            "spawn_time": 95031,
-            "speed": 6.894429755449881
-        },
-        {
-            "shape": "oval",
-            "position": [
-                516,
-                521
+                26,
+                523
             ],
             "direction": "center_to_outside",
             "color": [
@@ -3799,59 +4035,47 @@
                 182,
                 193
             ],
+            "spawn_time": 95031,
+            "speed": 5.901792824562243,
+            "size": 83
+        },
+        {
+            "shape": "circle",
+            "position": [
+                176,
+                145
+            ],
+            "direction": "left_to_right",
+            "color": [
+                173,
+                216,
+                230
+            ],
             "spawn_time": 95356,
-            "speed": 5.263327758672556
+            "speed": 4.701396569263072,
+            "size": 65
         },
         {
             "shape": "rectangle",
             "position": [
-                694,
-                138
+                490,
+                369
             ],
-            "direction": "left_to_right",
+            "direction": "edges_to_center",
             "color": [
                 255,
                 182,
                 193
             ],
             "spawn_time": 95644,
-            "speed": 5.339395896779306
+            "speed": 5.54310244427777,
+            "size": 64
         },
         {
             "shape": "circle",
             "position": [
-                566,
-                101
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 95951,
-            "speed": 6.015472356999776
-        },
-        {
-            "shape": "custom_shape",
-            "position": [
-                770,
-                414
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 96248,
-            "speed": 4.684923632427535
-        },
-        {
-            "shape": "oval",
-            "position": [
-                79,
-                425
+                723,
+                58
             ],
             "direction": "center_to_outside",
             "color": [
@@ -3859,74 +4083,127 @@
                 238,
                 144
             ],
-            "spawn_time": 96518,
-            "speed": 4.426722921747439
+            "spawn_time": 95951,
+            "speed": 4.955129766549526,
+            "size": 92
         },
         {
             "shape": "custom_shape",
             "position": [
-                164,
-                9
-            ],
-            "direction": "left_to_right",
-            "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 96823,
-            "speed": 6.656616338162204
-        },
-        {
-            "shape": "oval",
-            "position": [
-                30,
-                438
+                334,
+                380
             ],
             "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 96248,
+            "speed": 6.560035891256264,
+            "size": 65
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                151,
+                518
+            ],
+            "direction": "edges_to_center",
+            "color": [
+                255,
+                228,
+                225
+            ],
+            "spawn_time": 96518,
+            "speed": 4.064916905144253,
+            "size": 60
+        },
+        {
+            "shape": "circle",
+            "position": [
+                765,
+                440
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 96823,
+            "speed": 6.523337884981134,
+            "size": 54
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                269,
+                264
+            ],
+            "direction": "edges_to_center",
             "color": [
                 144,
                 238,
                 144
             ],
             "spawn_time": 97102,
-            "speed": 6.230577075406598
+            "speed": 4.631842064483753,
+            "size": 79
+        },
+        {
+            "shape": "rectangle",
+            "position": [
+                682,
+                540
+            ],
+            "direction": "top_to_bottom",
+            "color": [
+                255,
+                182,
+                193
+            ],
+            "spawn_time": 97408,
+            "speed": 4.066618431107212,
+            "size": 56
         },
         {
             "shape": "custom_shape",
             "position": [
-                634,
-                436
+                316,
+                249
             ],
-            "direction": "edges_to_center",
+            "direction": "left_to_right",
             "color": [
-                173,
-                216,
-                230
-            ],
-            "spawn_time": 97408,
-            "speed": 4.009738036569067
-        },
-        {
-            "shape": "oval",
-            "position": [
-                4,
-                98
-            ],
-            "direction": "edges_to_center",
-            "color": [
-                144,
-                238,
-                144
+                255,
+                240,
+                245
             ],
             "spawn_time": 97713,
-            "speed": 5.866730876347118
+            "speed": 4.354055855144252,
+            "size": 68
         },
         {
-            "shape": "oval",
+            "shape": "circle",
             "position": [
-                47,
-                455
+                569,
+                330
+            ],
+            "direction": "left_to_right",
+            "color": [
+                255,
+                255,
+                224
+            ],
+            "spawn_time": 98012,
+            "speed": 6.165776051842172,
+            "size": 90
+        },
+        {
+            "shape": "custom_shape",
+            "position": [
+                159,
+                51
             ],
             "direction": "center_to_outside",
             "color": [
@@ -3934,90 +4211,25 @@
                 228,
                 225
             ],
-            "spawn_time": 98012,
-            "speed": 5.3317087164318275
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                289,
-                424
-            ],
-            "direction": "center_to_outside",
-            "color": [
-                255,
-                255,
-                224
-            ],
             "spawn_time": 98291,
-            "speed": 6.0913311437363005
-        },
-        {
-            "shape": "oval",
-            "position": [
-                800,
-                80
-            ],
-            "direction": "top_to_bottom",
-            "color": [
-                255,
-                222,
-                173
-            ],
-            "spawn_time": 98558,
-            "speed": 6.597690134694929
-        },
-        {
-            "shape": "rectangle",
-            "position": [
-                100,
-                0
-            ],
-            "color": [
-                255,
-                0,
-                0
-            ],
-            "spawn_time": 1000
-        },
-        {
-            "shape": "circle",
-            "position": [
-                300,
-                50
-            ],
-            "color": [
-                0,
-                255,
-                0
-            ],
-            "spawn_time": 3000
-        },
-        {
-            "shape": "oval",
-            "position": [
-                500,
-                0
-            ],
-            "color": [
-                0,
-                0,
-                255
-            ],
-            "spawn_time": 5000
+            "speed": 5.318547611842238,
+            "size": 78
         },
         {
             "shape": "custom_shape",
             "position": [
-                200,
-                200
+                422,
+                587
             ],
+            "direction": "left_to_right",
             "color": [
                 255,
-                255,
-                0
+                218,
+                185
             ],
-            "spawn_time": 7000
+            "spawn_time": 98558,
+            "speed": 4.995571922811492,
+            "size": 63
         }
     ]
 }

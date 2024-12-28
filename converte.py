@@ -5,10 +5,7 @@ import json
 with open('enemy_spawn_times.json', 'r') as times_file:
     times = json.load(times_file)
 
-with open('level-data_old.json', 'r') as obstacles_file:
-    obstacles_data = json.load(obstacles_file)
-
-# Definir formas y colores posibles (Paleta "cute")
+# Definir formas, colores y fondos posibles (Paleta "cute")
 shapes = ["rectangle", "circle", "oval", "custom_shape"]
 colors = [
     [255, 182, 193],  # rosa claro
@@ -29,7 +26,7 @@ bg_color = [
 ]
 directions = ["center_to_outside", "top_to_bottom", "left_to_right", "edges_to_center"]
 
-# Crear una lista de obstáculos a partir de los tiempos
+# Crear una lista de nuevos obstáculos a partir de los tiempos
 new_obstacles = []
 for time in times:
     shape = random.choice(shapes)
@@ -37,6 +34,7 @@ for time in times:
     direction = random.choice(directions)
     position = [random.randint(0, 800), random.randint(0, 600)]  # Posiciones aleatorias
     speed = random.uniform(4, 7)  # Velocidad aleatoria entre 3 y 7
+    size = random.randint(50, 100)  # Tamaño aleatorio entre 20 y 60
 
     new_obstacles.append({
         "shape": shape,
@@ -44,18 +42,16 @@ for time in times:
         "direction": direction,
         "color": color,
         "spawn_time": time,
-        "speed": speed
+        "speed": speed,
+        "size": size
     })
-
-# Añadir los obstáculos preexistentes del JSON original
-new_obstacles.extend(obstacles_data["obstacles"])
 
 # Crear el nuevo JSON, incluyendo el nombre del nivel y el color de fondo
 level_name = "First Test"  # Cambia el nombre según sea necesario
 background_color = random.choice(bg_color)  # Definir el color de fondo, puedes cambiarlo según quieras
 
 final_json = {
-    "song": obstacles_data["song"],
+    "song": "resources/[PA] Geoxor - Virtual Arcadia 2020.ogg",  # Define la ruta de la canción
     "level_name": level_name,  # Nuevo campo para el nombre del nivel
     "background_color": background_color,  # Campo añadido para el color de fondo
     "obstacles": new_obstacles
